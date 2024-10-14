@@ -29,4 +29,5 @@ CREATE TABLE city (
 ) 
 '''
 
+SQL_INSERT_CAR = 'INSERT INTO city (state, city_name, city_phone, city_dpt) values(%s, %s, %s,%s)'
 SQL_INSERT_CITY = 'INSERT INTO city (state, city_name, city_phone, city_dpt) values(%s, %s, %s,%s)'
