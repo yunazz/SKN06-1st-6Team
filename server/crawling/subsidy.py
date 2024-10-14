@@ -130,7 +130,7 @@ def get_subsidy():
             driver.switch_to.window(driver.window_handles[-1])
 
         # 수집한 정보를 텍스트 파일로 저장
-        with open('subsidy_data.txt', 'w', encoding='utf-8') as file: # (2)
+        with open('subsidy_data.csv', 'w', encoding='utf-8') as file: # (2)
             # 컬럼명 (1)
             file.write("시도,")
             file.write("지역구분,")
