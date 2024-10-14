@@ -1,6 +1,7 @@
 from db.ddl import create_tables
 from db.dml import insert_rows
-from crawling.subsidy import get_subsidy
+from crawling.subsidy import crawling_subsidy
+from server.crawling.city import crawling_tel
 
 if __name__ == '__main__':
     print('DB setting 시작')
@@ -8,6 +9,10 @@ if __name__ == '__main__':
     # try:
     print('DB setting 1')
     create_tables()
+    
+    crawling_subsidy()
+    crawling_tel()
+    insert_rows()
         # print('DB setting 2')
         
         # subsidy = get_subsidy()

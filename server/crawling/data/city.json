@@ -1,0 +1,968 @@
+[
+    {
+        "state": "서울",
+        "city_name": "서울특별시",
+        "city_dpt": "친환경차량과",
+        "city_phone": "02-2133-1268"
+    },
+    {
+        "state": "부산",
+        "city_name": "부산광역시",
+        "city_dpt": "탄소중립정책과",
+        "city_phone": "051-888-3554"
+    },
+    {
+        "state": "대구",
+        "city_name": "대구광역시",
+        "city_dpt": "미래모빌리티과",
+        "city_phone": "053-803-6371"
+    },
+    {
+        "state": "인천",
+        "city_name": "인천광역시",
+        "city_dpt": "인천광역시 에너지산업과",
+        "city_phone": "032-440-4358"
+    },
+    {
+        "state": "광주",
+        "city_name": "광주광역시",
+        "city_dpt": "기후대기정책과",
+        "city_phone": "062-613-4341"
+    },
+    {
+        "state": "대전",
+        "city_name": "대전광역시",
+        "city_dpt": "대기환경과",
+        "city_phone": "042-270-3183"
+    },
+    {
+        "state": "울산",
+        "city_name": "울산광역시",
+        "city_dpt": "환경대기과",
+        "city_phone": "052-229-3185"
+    },
+    {
+        "state": "세종",
+        "city_name": "세종특별자치시",
+        "city_dpt": "환경정책과",
+        "city_phone": "044-300-4253"
+    },
+    {
+        "state": "경기",
+        "city_name": "수원시",
+        "city_dpt": "수원시 기후에너지과",
+        "city_phone": "1899-3300"
+    },
+    {
+        "state": "경기",
+        "city_name": "성남시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "031-729-3162"
+    },
+    {
+        "state": "경기",
+        "city_name": "의정부시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "031-828-4443"
+    },
+    {
+        "state": "경기",
+        "city_name": "안양시",
+        "city_dpt": "기후대기과",
+        "city_phone": "031-8045-2246"
+    },
+    {
+        "state": "경기",
+        "city_name": "부천시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "032-625-3108"
+    },
+    {
+        "state": "경기",
+        "city_name": "광명시",
+        "city_dpt": "탄소중립과",
+        "city_phone": "1688-3399"
+    },
+    {
+        "state": "경기",
+        "city_name": "평택시",
+        "city_dpt": "환경정책과 대기환경팀",
+        "city_phone": "031-8024-5000"
+    },
+    {
+        "state": "경기",
+        "city_name": "동두천시",
+        "city_dpt": "환경보호과",
+        "city_phone": "031-860-2243"
+    },
+    {
+        "state": "경기",
+        "city_name": "안산시",
+        "city_dpt": "환경정책과",
+        "city_phone": "1666-1234"
+    },
+    {
+        "state": "경기",
+        "city_name": "고양시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "031-909-9000"
+    },
+    {
+        "state": "경기",
+        "city_name": "과천시",
+        "city_dpt": "기후환경과",
+        "city_phone": "02-3677-2248"
+    },
+    {
+        "state": "경기",
+        "city_name": "구리시",
+        "city_dpt": "환경과",
+        "city_phone": "031-550-2756"
+    },
+    {
+        "state": "경기",
+        "city_name": "남양주시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "031-590-2610"
+    },
+    {
+        "state": "경기",
+        "city_name": "오산시",
+        "city_dpt": "오산시 환경과",
+        "city_phone": "031-8036-6434"
+    },
+    {
+        "state": "경기",
+        "city_name": "시흥시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "031-310-3884"
+    },
+    {
+        "state": "경기",
+        "city_name": "군포시",
+        "city_dpt": "환경과",
+        "city_phone": "031-390-0542"
+    },
+    {
+        "state": "경기",
+        "city_name": "의왕시",
+        "city_dpt": "환경과",
+        "city_phone": "031-345-3805"
+    },
+    {
+        "state": "경기",
+        "city_name": "하남시",
+        "city_dpt": "환경정책과",
+        "city_phone": "031-790-5937"
+    },
+    {
+        "state": "경기",
+        "city_name": "용인시",
+        "city_dpt": "기후대기과",
+        "city_phone": "031-6193-3155"
+    },
+    {
+        "state": "경기",
+        "city_name": "파주시",
+        "city_dpt": "기업지원과",
+        "city_phone": "031-940-8465"
+    },
+    {
+        "state": "경기",
+        "city_name": "이천시",
+        "city_dpt": "환경보호과",
+        "city_phone": "031-644-2354"
+    },
+    {
+        "state": "경기",
+        "city_name": "안성시",
+        "city_dpt": "안성시 환경과",
+        "city_phone": "031-678-0743"
+    },
+    {
+        "state": "경기",
+        "city_name": "김포시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "031-980-5364"
+    },
+    {
+        "state": "경기",
+        "city_name": "화성시",
+        "city_dpt": "환경정책과",
+        "city_phone": "031-5189-6727"
+    },
+    {
+        "state": "경기",
+        "city_name": "광주시",
+        "city_dpt": "기후탄소과",
+        "city_phone": "031-760-2976"
+    },
+    {
+        "state": "경기",
+        "city_name": "양주시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "031-8082-6341"
+    },
+    {
+        "state": "경기",
+        "city_name": "포천시",
+        "city_dpt": "환경관리과",
+        "city_phone": "031-538-3241"
+    },
+    {
+        "state": "경기",
+        "city_name": "여주시",
+        "city_dpt": "환경과",
+        "city_phone": "031-887-2983"
+    },
+    {
+        "state": "경기",
+        "city_name": "연천군",
+        "city_dpt": "연천군청 환경보호과",
+        "city_phone": "031-839-2255"
+    },
+    {
+        "state": "경기",
+        "city_name": "가평군",
+        "city_dpt": "가평군 환경정책과",
+        "city_phone": "031-580-2441"
+    },
+    {
+        "state": "경기",
+        "city_name": "양평군",
+        "city_dpt": "양평군 환경과",
+        "city_phone": "031-770-2276"
+    },
+    {
+        "state": "강원",
+        "city_name": "춘천시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "033-250-3258"
+    },
+    {
+        "state": "강원",
+        "city_name": "원주시",
+        "city_dpt": "기후대응과",
+        "city_phone": "033-737-3048"
+    },
+    {
+        "state": "강원",
+        "city_name": "강릉시",
+        "city_dpt": "환경과",
+        "city_phone": "033-640-5156"
+    },
+    {
+        "state": "강원",
+        "city_name": "동해시",
+        "city_dpt": "환경과",
+        "city_phone": "033-530-2154"
+    },
+    {
+        "state": "강원",
+        "city_name": "태백시",
+        "city_dpt": "탄소중립과",
+        "city_phone": "033-550-2650"
+    },
+    {
+        "state": "강원",
+        "city_name": "속초시",
+        "city_dpt": "친환경정책과",
+        "city_phone": "033-639-2331"
+    },
+    {
+        "state": "강원",
+        "city_name": "삼척시",
+        "city_dpt": "에너지과",
+        "city_phone": "033-570-3750"
+    },
+    {
+        "state": "강원",
+        "city_name": "홍천군",
+        "city_dpt": "환경과",
+        "city_phone": "033-430-2621"
+    },
+    {
+        "state": "강원",
+        "city_name": "횡성군",
+        "city_dpt": "투자유치과",
+        "city_phone": "033-340-4773"
+    },
+    {
+        "state": "강원",
+        "city_name": "영월군",
+        "city_dpt": "환경위생과",
+        "city_phone": "033-370-2341"
+    },
+    {
+        "state": "강원",
+        "city_name": "평창군",
+        "city_dpt": "환경과",
+        "city_phone": "033-330-2369"
+    },
+    {
+        "state": "강원",
+        "city_name": "정선군",
+        "city_dpt": "전략산업과",
+        "city_phone": "033-560-2433"
+    },
+    {
+        "state": "강원",
+        "city_name": "철원군",
+        "city_dpt": "청정환경과 환경정책팀",
+        "city_phone": "033-450-4688"
+    },
+    {
+        "state": "강원",
+        "city_name": "화천군",
+        "city_dpt": "환경과",
+        "city_phone": "033-440-2331"
+    },
+    {
+        "state": "강원",
+        "city_name": "양구군",
+        "city_dpt": "경제체육과",
+        "city_phone": "033-480-7143"
+    },
+    {
+        "state": "강원",
+        "city_name": "인제군",
+        "city_dpt": "환경보호과",
+        "city_phone": "033-460-4454"
+    },
+    {
+        "state": "강원",
+        "city_name": "고성군",
+        "city_dpt": "환경과",
+        "city_phone": "033-680-3339"
+    },
+    {
+        "state": "강원",
+        "city_name": "양양군",
+        "city_dpt": "경제에너지과",
+        "city_phone": "033-670-2219"
+    },
+    {
+        "state": "충북",
+        "city_name": "청주시",
+        "city_dpt": "기후대기과",
+        "city_phone": "043-201-4982"
+    },
+    {
+        "state": "충북",
+        "city_name": "충주시",
+        "city_dpt": "기후에너지과 대기관리팀",
+        "city_phone": "043-850-3681"
+    },
+    {
+        "state": "충북",
+        "city_name": "제천시",
+        "city_dpt": "제천시청 자연환경과",
+        "city_phone": "043-641-6388"
+    },
+    {
+        "state": "충북",
+        "city_name": "보은군",
+        "city_dpt": "보은군청 환경위생과 환경정책팀",
+        "city_phone": "043-540-3254"
+    },
+    {
+        "state": "충북",
+        "city_name": "옥천군",
+        "city_dpt": "환경과",
+        "city_phone": "043-730-3434"
+    },
+    {
+        "state": "충북",
+        "city_name": "증평군",
+        "city_dpt": "환경위생과",
+        "city_phone": "043-835-4294"
+    },
+    {
+        "state": "충북",
+        "city_name": "영동군",
+        "city_dpt": "영동군 환경과",
+        "city_phone": "043-740-3402"
+    },
+    {
+        "state": "충북",
+        "city_name": "진천군",
+        "city_dpt": "진천군 환경과",
+        "city_phone": "043-539-4114"
+    },
+    {
+        "state": "충북",
+        "city_name": "괴산군",
+        "city_dpt": "환경과",
+        "city_phone": "043-830-3627"
+    },
+    {
+        "state": "충북",
+        "city_name": "음성군",
+        "city_dpt": "음성군 환경과",
+        "city_phone": "043-871-3793"
+    },
+    {
+        "state": "충북",
+        "city_name": "단양군",
+        "city_dpt": "환경과",
+        "city_phone": "043-420-2653"
+    },
+    {
+        "state": "충남",
+        "city_name": "천안시",
+        "city_dpt": "기후대기과",
+        "city_phone": "041-521-3476"
+    },
+    {
+        "state": "충남",
+        "city_name": "공주시",
+        "city_dpt": "환경보호과",
+        "city_phone": "041-840-8578"
+    },
+    {
+        "state": "충남",
+        "city_name": "보령시",
+        "city_dpt": "대기환경팀",
+        "city_phone": "041-930-3668"
+    },
+    {
+        "state": "충남",
+        "city_name": "아산시",
+        "city_dpt": "기후변화대책과",
+        "city_phone": "041-530-6255"
+    },
+    {
+        "state": "충남",
+        "city_name": "서산시",
+        "city_dpt": "기후환경대기과",
+        "city_phone": "041-660-3364"
+    },
+    {
+        "state": "충남",
+        "city_name": "논산시",
+        "city_dpt": "환경과",
+        "city_phone": "041-746-5935"
+    },
+    {
+        "state": "충남",
+        "city_name": "계룡시",
+        "city_dpt": "환경위생과",
+        "city_phone": "042-840-2453"
+    },
+    {
+        "state": "충남",
+        "city_name": "당진시",
+        "city_dpt": "환경위생과",
+        "city_phone": "041-360-6576"
+    },
+    {
+        "state": "충남",
+        "city_name": "금산군",
+        "city_dpt": "환경위생과",
+        "city_phone": "041-750-2493"
+    },
+    {
+        "state": "충남",
+        "city_name": "부여군",
+        "city_dpt": "환경과",
+        "city_phone": "041-830-2316"
+    },
+    {
+        "state": "충남",
+        "city_name": "서천군",
+        "city_dpt": "환경보호과",
+        "city_phone": "041-950-4096"
+    },
+    {
+        "state": "충남",
+        "city_name": "청양군",
+        "city_dpt": "환경정책과",
+        "city_phone": "041-940-4052"
+    },
+    {
+        "state": "충남",
+        "city_name": "홍성군",
+        "city_dpt": "환경과",
+        "city_phone": "041-630-1875"
+    },
+    {
+        "state": "충남",
+        "city_name": "예산군",
+        "city_dpt": "대기관리팀",
+        "city_phone": "041-339-7537"
+    },
+    {
+        "state": "충남",
+        "city_name": "태안군",
+        "city_dpt": "환경산림과",
+        "city_phone": "041-670-2784"
+    },
+    {
+        "state": "전북",
+        "city_name": "전주시",
+        "city_dpt": "전주시청 기후변화대응과",
+        "city_phone": "063-281-2324"
+    },
+    {
+        "state": "전북",
+        "city_name": "군산시",
+        "city_dpt": "환경정책과",
+        "city_phone": "063-454-4462"
+    },
+    {
+        "state": "전북",
+        "city_name": "익산시",
+        "city_dpt": "환경정책과",
+        "city_phone": "063-859-4452"
+    },
+    {
+        "state": "전북",
+        "city_name": "정읍시",
+        "city_dpt": "자원순환과",
+        "city_phone": "063-539-8162"
+    },
+    {
+        "state": "전북",
+        "city_name": "남원시",
+        "city_dpt": "환경과",
+        "city_phone": "063-620-6918"
+    },
+    {
+        "state": "전북",
+        "city_name": "김제시",
+        "city_dpt": "김제시청 환경과",
+        "city_phone": "063-540-3559"
+    },
+    {
+        "state": "전북",
+        "city_name": "완주군",
+        "city_dpt": "자원순환과",
+        "city_phone": "063-290-2664"
+    },
+    {
+        "state": "전북",
+        "city_name": "진안군",
+        "city_dpt": "환경과",
+        "city_phone": "063-430-2328"
+    },
+    {
+        "state": "전북",
+        "city_name": "무주군",
+        "city_dpt": "환경과",
+        "city_phone": "063-320-2332"
+    },
+    {
+        "state": "전북",
+        "city_name": "장수군",
+        "city_dpt": "환경위생과",
+        "city_phone": "063-350-2521"
+    },
+    {
+        "state": "전북",
+        "city_name": "임실군",
+        "city_dpt": "환경보호과",
+        "city_phone": "063-640-2955"
+    },
+    {
+        "state": "전북",
+        "city_name": "순창군",
+        "city_dpt": "환경위생과",
+        "city_phone": "063-650-1724"
+    },
+    {
+        "state": "전북",
+        "city_name": "고창군",
+        "city_dpt": "환경위생과",
+        "city_phone": "063-560-2916"
+    },
+    {
+        "state": "전북",
+        "city_name": "부안군",
+        "city_dpt": "부안군청 환경과",
+        "city_phone": "063-580-4421"
+    },
+    {
+        "state": "전남",
+        "city_name": "목포시",
+        "city_dpt": "목포시 기후환경과",
+        "city_phone": "061-270-8675"
+    },
+    {
+        "state": "전남",
+        "city_name": "여수시",
+        "city_dpt": "기후생태과",
+        "city_phone": "061-659-3811"
+    },
+    {
+        "state": "전남",
+        "city_name": "순천시",
+        "city_dpt": "기후에너지과",
+        "city_phone": "061-749-6526"
+    },
+    {
+        "state": "전남",
+        "city_name": "나주시",
+        "city_dpt": "에너지신산업과",
+        "city_phone": "061-339-8398"
+    },
+    {
+        "state": "전남",
+        "city_name": "광양시",
+        "city_dpt": "환경과",
+        "city_phone": "061-797-2793"
+    },
+    {
+        "state": "전남",
+        "city_name": "담양군",
+        "city_dpt": "담양군 환경과",
+        "city_phone": "061-380-3077"
+    },
+    {
+        "state": "전남",
+        "city_name": "곡성군",
+        "city_dpt": "환경과",
+        "city_phone": "061-360-8514"
+    },
+    {
+        "state": "전남",
+        "city_name": "구례군",
+        "city_dpt": "환경과",
+        "city_phone": "061-780-2154"
+    },
+    {
+        "state": "전남",
+        "city_name": "고흥군",
+        "city_dpt": "환경산림과",
+        "city_phone": "061-830-5331"
+    },
+    {
+        "state": "전남",
+        "city_name": "보성군",
+        "city_dpt": "기후환경과",
+        "city_phone": "061-850-5337"
+    },
+    {
+        "state": "전남",
+        "city_name": "화순군",
+        "city_dpt": "화순군 환경과",
+        "city_phone": "061-379-3583"
+    },
+    {
+        "state": "전남",
+        "city_name": "장흥군",
+        "city_dpt": "장흥군청 환경관리과",
+        "city_phone": "061-860-6033"
+    },
+    {
+        "state": "전남",
+        "city_name": "강진군",
+        "city_dpt": "환경과",
+        "city_phone": "061-430-3222"
+    },
+    {
+        "state": "전남",
+        "city_name": "해남군",
+        "city_dpt": "환경과",
+        "city_phone": "061-530-5338"
+    },
+    {
+        "state": "전남",
+        "city_name": "영암군",
+        "city_dpt": "환경기후과",
+        "city_phone": "061-470-2403"
+    },
+    {
+        "state": "전남",
+        "city_name": "무안군",
+        "city_dpt": "환경과",
+        "city_phone": "061-450-5558"
+    },
+    {
+        "state": "전남",
+        "city_name": "함평군",
+        "city_dpt": "환경관리과",
+        "city_phone": "061-320-1837"
+    },
+    {
+        "state": "전남",
+        "city_name": "영광군",
+        "city_dpt": "S-전략산업실",
+        "city_phone": "061-350-4746"
+    },
+    {
+        "state": "전남",
+        "city_name": "장성군",
+        "city_dpt": "환경과",
+        "city_phone": "061-390-7362"
+    },
+    {
+        "state": "전남",
+        "city_name": "완도군",
+        "city_dpt": "환경수질관리과",
+        "city_phone": "061-550-5497"
+    },
+    {
+        "state": "전남",
+        "city_name": "진도군",
+        "city_dpt": "환경수질과 환경정책팀",
+        "city_phone": "061-540-3705"
+    },
+    {
+        "state": "전남",
+        "city_name": "신안군",
+        "city_dpt": "세계유산과",
+        "city_phone": "061-240-8444"
+    },
+    {
+        "state": "경북",
+        "city_name": "포항시",
+        "city_dpt": "기후대기과",
+        "city_phone": "054-270-3793"
+    },
+    {
+        "state": "경북",
+        "city_name": "경주시",
+        "city_dpt": "환경정책과",
+        "city_phone": "054-779-6383"
+    },
+    {
+        "state": "경북",
+        "city_name": "김천시",
+        "city_dpt": "환경위생과",
+        "city_phone": "054-420-6904"
+    },
+    {
+        "state": "경북",
+        "city_name": "안동시",
+        "city_dpt": "환경관리과",
+        "city_phone": "054-840-6182"
+    },
+    {
+        "state": "경북",
+        "city_name": "구미시",
+        "city_dpt": "환경정책과",
+        "city_phone": "054-480-5255"
+    },
+    {
+        "state": "경북",
+        "city_name": "영주시",
+        "city_dpt": "환경보호과",
+        "city_phone": "054-639-6758"
+    },
+    {
+        "state": "경북",
+        "city_name": "영천시",
+        "city_dpt": "환경보호과",
+        "city_phone": "054-330-6036"
+    },
+    {
+        "state": "경북",
+        "city_name": "상주시",
+        "city_dpt": "환경관리과",
+        "city_phone": "054-537-7355"
+    },
+    {
+        "state": "경북",
+        "city_name": "문경시",
+        "city_dpt": "환경보호과",
+        "city_phone": "054-550-6839"
+    },
+    {
+        "state": "경북",
+        "city_name": "경산시",
+        "city_dpt": "환경과",
+        "city_phone": "053-810-5450"
+    },
+    {
+        "state": "경북",
+        "city_name": "의성군",
+        "city_dpt": "환경축산과",
+        "city_phone": "054-830-6027"
+    },
+    {
+        "state": "경북",
+        "city_name": "청송군",
+        "city_dpt": "환경관리과",
+        "city_phone": "054-870-6183"
+    },
+    {
+        "state": "경북",
+        "city_name": "영양군",
+        "city_dpt": "환경보전과",
+        "city_phone": "054-680-6513"
+    },
+    {
+        "state": "경북",
+        "city_name": "영덕군",
+        "city_dpt": "영덕군 환경위생과",
+        "city_phone": "054-730-6185"
+    },
+    {
+        "state": "경북",
+        "city_name": "청도군",
+        "city_dpt": "새마을환경과",
+        "city_phone": "054-370-2185"
+    },
+    {
+        "state": "경북",
+        "city_name": "고령군",
+        "city_dpt": "지역경제과",
+        "city_phone": "054-950-6588"
+    },
+    {
+        "state": "경북",
+        "city_name": "성주군",
+        "city_dpt": "환경과",
+        "city_phone": "054-930-6185"
+    },
+    {
+        "state": "경북",
+        "city_name": "칠곡군",
+        "city_dpt": "칠곡군 환경관리과",
+        "city_phone": "054-979-6757"
+    },
+    {
+        "state": "경북",
+        "city_name": "예천군",
+        "city_dpt": "환경관리과",
+        "city_phone": "054-650-6535"
+    },
+    {
+        "state": "경북",
+        "city_name": "봉화군",
+        "city_dpt": "봉화군청 녹색환경과",
+        "city_phone": "054-679-6406"
+    },
+    {
+        "state": "경북",
+        "city_name": "울진군",
+        "city_dpt": "환경위생과",
+        "city_phone": "054-789-6712"
+    },
+    {
+        "state": "경북",
+        "city_name": "울릉군",
+        "city_dpt": "환경위생과",
+        "city_phone": "054-790-6183"
+    },
+    {
+        "state": "경남",
+        "city_name": "창원시",
+        "city_dpt": "기후대기과",
+        "city_phone": "055-225-3476"
+    },
+    {
+        "state": "경남",
+        "city_name": "진주시",
+        "city_dpt": "진주시 환경관리과",
+        "city_phone": "055-749-8643"
+    },
+    {
+        "state": "경남",
+        "city_name": "통영시",
+        "city_dpt": "환경과",
+        "city_phone": "055-650-5473"
+    },
+    {
+        "state": "경남",
+        "city_name": "사천시",
+        "city_dpt": "환경보호과",
+        "city_phone": "055-831-2769"
+    },
+    {
+        "state": "경남",
+        "city_name": "김해시",
+        "city_dpt": "기후대응과",
+        "city_phone": "055-330-8755"
+    },
+    {
+        "state": "경남",
+        "city_name": "밀양시",
+        "city_dpt": "환경관리과",
+        "city_phone": "055-359-5319"
+    },
+    {
+        "state": "경남",
+        "city_name": "거제시",
+        "city_dpt": "거제시 기후환경과",
+        "city_phone": "055-639-3963"
+    },
+    {
+        "state": "경남",
+        "city_name": "양산시",
+        "city_dpt": "기후환경과",
+        "city_phone": "055-392-2604"
+    },
+    {
+        "state": "경남",
+        "city_name": "의령군",
+        "city_dpt": "환경과",
+        "city_phone": "055-570-2623"
+    },
+    {
+        "state": "경남",
+        "city_name": "함안군",
+        "city_dpt": "환경과",
+        "city_phone": "055-580-2405"
+    },
+    {
+        "state": "경남",
+        "city_name": "창녕군",
+        "city_dpt": "환경위생과",
+        "city_phone": "055-530-7484"
+    },
+    {
+        "state": "경남",
+        "city_name": "고성군",
+        "city_dpt": "환경과",
+        "city_phone": "055-670-5873"
+    },
+    {
+        "state": "경남",
+        "city_name": "남해군",
+        "city_dpt": "환경과",
+        "city_phone": "055-860-3254"
+    },
+    {
+        "state": "경남",
+        "city_name": "하동군",
+        "city_dpt": "안전교통과",
+        "city_phone": "055-880-2394"
+    },
+    {
+        "state": "경남",
+        "city_name": "산청군",
+        "city_dpt": "환경위생과",
+        "city_phone": "055-970-7101"
+    },
+    {
+        "state": "경남",
+        "city_name": "함양군",
+        "city_dpt": "함양군 환경위생과",
+        "city_phone": "055-960-6110"
+    },
+    {
+        "state": "경남",
+        "city_name": "거창군",
+        "city_dpt": "환경과",
+        "city_phone": "055-940-3492"
+    },
+    {
+        "state": "경남",
+        "city_name": "합천군",
+        "city_dpt": "환경위생과",
+        "city_phone": "055-930-3310"
+    },
+    {
+        "state": "제주",
+        "city_name": "제주특별자치도",
+        "city_dpt": "혁신산업국 우주모빌리티과",
+        "city_phone": "064-710-2612"
+    },
+    {
+        "state": "공단",
+        "city_name": "한국환경공단",
+        "city_dpt": "전기차보조사업운영TF",
+        "city_phone": "032-590-9907"
+    }
+]
