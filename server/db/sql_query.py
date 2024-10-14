@@ -22,16 +22,11 @@ CREATE TABLE subsidy (
 SQL_TB_CITY = '''
 CREATE TABLE city (  
     city_id int unsigned auto_increment primary key,
+    state varchar(20) not null,
     city_name varchar(20) not null,
-    state YEAR not null
+    city_dpt varchar(20),
+    city_phone varchar(15)
 ) 
 '''
 
-SQL_TB_CITY_HALL = '''
-CREATE TABLE city_hall (  
-    city_hall_id int unsigned auto_increment primary key,
-    city_id int not null,
-    department varchar(11),
-    phone varchar(11)
-) 
-'''
+SQL_INSERT_CITY = 'INSERT INTO city (state, city_name, city_phone, city_dpt) values(%s, %s, %s,%s)'

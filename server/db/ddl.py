@@ -1,5 +1,5 @@
 import pymysql
-from db.sql_query import SQL_TB_CAR, SQL_TB_SUBSIDY, SQL_TB_CITY, SQL_TB_CITY_HALL
+from db.sql_query import SQL_TB_CAR, SQL_TB_SUBSIDY, SQL_TB_CITY
 # import pandas as pd 
 
 def create_tables():
@@ -9,9 +9,7 @@ def create_tables():
             cursor.execute("DROP TABLE IF EXISTS car") 
             cursor.execute("DROP TABLE IF EXISTS subsidy") 
             cursor.execute("DROP TABLE IF EXISTS city") 
-            cursor.execute("DROP TABLE IF EXISTS city_hall") 
             
             cursor.execute(SQL_TB_CAR)
             cursor.execute(SQL_TB_SUBSIDY)
             cursor.execute(SQL_TB_CITY)
-            cursor.execute(SQL_TB_CITY_HALL)

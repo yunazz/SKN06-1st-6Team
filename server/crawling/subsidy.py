@@ -6,8 +6,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import json
+import os
 
-def get_subsidy():
+def crawling_subsidy():
     # 드라이버 설정 및 URL 이동
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     url = 'https://ev.or.kr/nportal/buySupprt/initSubsidyPaymentCheckAction.do'
@@ -113,14 +115,13 @@ def get_subsidy():
             # 수집한 정보를 저장
             for ct, mk, mdl, sn, sc, sa in zip(car_type, maker, model, subN, subC, subALL):
                 all_data.append({
-                    '차종': ct,
-                    '제조사': mk,
-                    '모델명': mdl,
-                    '보조금(국비)': sn,
-                    '보조금(지방비)': sc,
-                    '보조금': sa,
-                    '시도': state_list[i],
-                    '지역구분': city_list[i]
+                    'car_type': ct,
+                    'maker': mk,
+                    'car_name': mdl,
+                    'national_subsidy': sn,
+                    'city_subcsidy': sc,
+                    'state': state_list[i],
+                    'city': city_list[i]
                 })
 
             # 현재 창 닫기
@@ -129,34 +130,21 @@ def get_subsidy():
             # 이전 창으로 전환
             driver.switch_to.window(driver.window_handles[-1])
 
-        # 수집한 정보를 텍스트 파일로 저장
-        with open('subsidy_data.csv', 'w', encoding='utf-8') as file: # (2)
-            # 컬럼명 (1)
-            file.write("시도,")
-            file.write("지역구분,")
-            file.write("차종,")
-            file.write("제조사,")
-            file.write("모델명,")
-            file.write("보조금(국비),")
-            file.write("보조금(지방비),")
-            file.write("보조금,\n")
-            # data 삽입
-            for data in all_data:
-                file.write(f"{data['시도']},")
-                file.write(f"{data['지역구분']},")
-                file.write(f"{data['차종']},")
-                file.write(f"{data['제조사']},")
-                file.write(f"{data['모델명']},")
-                file.write(f"{data['보조금(국비)']},")
-                file.write(f"{data['보조금(지방비)']},")
-                file.write(f"{data['보조금']}\n")
 
-        print("크롤링 완료! 데이터가 subsidy_data.csv에 저장되었습니다.")
-
+        # 수집한 정보를 JSON 파일로 저장
+        os.makedirs('server/crawling/data', exist_ok=True)
+        with open('server/crawling/data/car_subsidy.json', 'w', encoding='utf-8') as file: # (2)
+            json.dump(all_data, file, ensure_ascii=False, indent=4)
+        
     except Exception as e:
         print(f"오류 발생: {e}")
 
     finally:
         # 드라이버 종료
         driver.quit()
-    return 'subsidy_data.csv' # (2)
+    return 'subsidy_data.json' # (2)
+
+
+
+if __name__ == "__main__":
+    crawling_subsidy()
