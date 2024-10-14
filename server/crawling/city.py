@@ -83,26 +83,11 @@ def crawling_tel():
         time.sleep(1)  # 창을 닫고 나서 약간의 시간 대기
 
 
-        # 수집한 정보를 텍스트 파일로 저장
+        # 수집한 정보를 JSON 파일로 저장
         os.makedirs('server/crawling/data', exist_ok=True)
         with open('server/crawling/data/city.json', 'w', encoding='utf-8') as file:
             json.dump(all_data, file, ensure_ascii=False, indent=4)
-        
-        # with open('server/crawling/data/city.py', 'w', encoding='utf-8') as file: # (2)
-        #     # 컬럼명 (1)
-        #     file.write("시도,")
-        #     file.write("지역구분,")
-        #     file.write("부서,")
-        #     file.write("연락처\n")
-        #     # 데이터 삽입
-        #     for data in all_data:
-        #         file.write(f"{data['시도']},")
-        #         file.write(f"{data['지역구분']},")
-        #         file.write(f"{data['부서']},")
-        #         file.write(f"{data['연락처']}\n")
-
-        # print("크롤링 완료! 데이터가 city.csv에 저장되었습니다.")
-
+       
     except Exception as e:
         print(f"오류 발생: {e}")
 
