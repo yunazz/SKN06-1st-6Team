@@ -1,4 +1,4 @@
-# SKN01-1st-5Team
+# SKN06-1st-6Team
 <div align="center">
 <img width="600" alt="image" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/7ea63fc3-95f0-44d5-a0f0-cf431cae34f1">
 
