@@ -1,7 +1,7 @@
 import pymysql
 import json
-from pprint import pprint
-from db.sql_query import SQL_INSERT_CAR, SQL_INSERT_CITY
+from datetime import datetime
+from db.sql_query import SQL_INSERT_CAR, SQL_INSERT_CITY, SQL_INSERT_SUBSIDY
 
 def insert_rows():
     with open('server/crawling/data/city.json', 'r', encoding='utf-8') as f:
@@ -26,8 +26,6 @@ def insert_rows():
         with conn.cursor() as cursor:
         # INSERT Car
             for car in cars:
-                print(car)
-                print(car.get("car_type"))
                 car_type = car.get("car_type")
                 car_name = car.get("car_name")
                 maker = car.get("maker")
@@ -35,11 +33,43 @@ def insert_rows():
 
                 # INSERT 쿼리 작성 및 실행
                 cursor.execute(SQL_INSERT_CAR, (car_type, car_name, maker, national_subsidy))
-                    
-            conn.commit()
+        conn.commit()
         
+        with conn.cursor(pymysql.cursors.DictCursor) as cursor:
+        # INSERT Subsidy        
+            cursor.execute('SELECT city_id, city_name, state from city')
+            city_rows = cursor.fetchall()
+            cursor.execute('SELECT car_id, car_name from car')
+            car_rows = cursor.fetchall()
+            
+            subsidy_to_insert = []
+
+            for subsidy in cars:
+                city_name = subsidy.get("city_name")
+                state = subsidy.get("state")
+                city_subsidy = subsidy.get("city_subsidy")
+                car_name = subsidy.get("car_name")
+                
+                city_id = None
+                car_id = None
+                
+                for city in city_rows:
+                    if city['state'] == state and city['city_name'] == city_name:
+                        city_id = city['city_id']
+                        break 
+                for c in car_rows:
+                    if c['car_name'] == car_name :
+                        car_id = c['car_id']
+                        break     
+                    
+                if city_id is not None and car_id is not None:
+                    subsidy_to_insert.append((datetime.today().year, city_subsidy, city_id, car_id))
+            
+            cursor.executemany(SQL_INSERT_SUBSIDY, subsidy_to_insert)
+            
+        conn.commit()
     return
 
-    
+
 if __name__ == "__main__":
     insert_rows()
