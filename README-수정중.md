@@ -13,7 +13,7 @@
 
 | 박유나 | 박미현 | 정유진 | 정민준 |
 |:----------:|:----------:|:----------:|:----------:|
-| <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/33ea2a85-1853-484b-b2a4-c750f854a26b" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/b24cae67-75d6-48aa-a94e-e847a769f2c0" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/a3b96d0b-7537-4670-afaa-57279dab5552" /> |  <img width="120px" src="info/스크린샷 2024-10-15 오전 10.08.35.png" /> |
+| <img width="120px" src="" /> | <img width="120px" src="" /> | <img width="120px" src="" /> |  <img width="120px" src="info/스크린샷 2024-10-15 오전 10.08.35.png" /> |
 | [@Yuna Park](https://github.com/yunazz) | [@Park, Mihyeon](https://github.com/ppim321) | [@RealOil](https://github.com/RealOil) | [@MinJun Jung](https://github.com/samking1234-Apple) |
 
 ## 프로젝트 개요 및 소개
@@ -29,20 +29,22 @@ For building and running the application you need:
 
 ### Installation
 ``` bash
-$ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN01-1st-5Team.git
-$ cd SKN01-1st-5Team/source
-$ pip install -r requirements.txt
+$ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-1st-6Team.git
 ```
 
 ### Step-by-Step guide
-1. `crawling_runner.py` 를 실행하여 브랜드 FAQ를 크롤링합니다.
+1. `city.py`, 'subsidy.py', 'car.py' 를 실행하여 전기차종별 정보, 지역별 보조금 정보를 제이슨 파일로 저장합니다.
 ```bash
-$ python3 crawling_runner.py
+$ python city.py
+$ python subsidy.py
+$ python car.py
 ```
 
-2. `csv_to_db_runner.py` 를 실행하여 크롤링한 데이터를 데이터베이스에 저장합니다.
+2. `ddl.py`, 'dml.py', 'sql_query.py'를 실행하여 데이터베이스를 구축하고 저장합니다.
 ```bash
-$ python3 csv_to_db_runner.py
+$ python ddl.py
+$ python dml.py
+$ python sql_query.py
 ```
 
 3. **Streamlit**을 이용하여 `runner.py` 웹앱을 작동시킵니다.
@@ -68,16 +70,26 @@ $ streamlit run runner.py
 ## 화면 구성 📺
 | ABOUT | FAQ |
 | :------------: | :------------: |
-| <img width="240px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/ddffa783-bca1-4ff9-a9d7-d0a2bc65bd6c" />  | <img width="240px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/141cb773-ffdf-458d-8d52-cc922538117e" /> |
+| <img width="240px" src="" />  | <img width="240px" src="" /> |
 
 ---
+## 어플리케이션 사용법 📱
+
+1.
+
+2.
+
+3.
+
+---
+
 ## 기능 소개 📦
 
-### 연도별 전국 차량 등록 현황 변화
- - 선택한 지역의 연도별 차량 등록 현황을 그래프로 확인할 수 있습니다.
-### 통합 FAQ 검색 시스템
- - 국내 점유율 상위 3개 브랜드 FAQ를 통합 검색할 수 있는 기능을 제공합니다.
-
+### 지역별 보조금 조회
+ - 선택한 지역의 지역 보조금, 국비 보조금, 전체 보조금을 확인할 수 있다.
+### 차종별 정보 제공
+ - 선택한 차종에 대한 자세한 정보를 확인할 수 있다.
+ - 
 ---
 ## 아키텍처
 
@@ -109,5 +121,10 @@ $ streamlit run runner.py
     ├── page1.py
     ├── page2.py
     └── requirements.txt
+```
+
+### 데이터베이스 구조
+```bash
+
 ```
 
