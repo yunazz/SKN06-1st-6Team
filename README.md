@@ -34,7 +34,7 @@ $ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-1st-6Team.git
 ```
 
 ### Step-by-Step guide
-1. init.py : Crawling > DDL > DML
+1. 서버 기초 세팅: Crawling > DDL > DML
    - 전기차종별 정보, 지역별 보조금 정보를 크롤링하여 JSON 파일로 저장 (./server/data 디렉토리에 저장)
    - DDL(Data Definition Language): DB 및 Table 생성
    - DML(Data Manipulation Language): 크롤링한 데이터를 DB에 저장
