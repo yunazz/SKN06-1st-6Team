@@ -10,8 +10,10 @@ if __name__ == '__main__':
     print('DB setting 1')
     create_tables()
     
-    # crawling_subsidy()
+    # 크롤링 시간이 오래 걸려 미리 만들어 놓은 /crawling/data/*.json 참조하기 위해 주석처리
+    # crawling_subsidy() 
     # crawling_tel()
+    
     insert_rows()
         # print('DB setting 2')
         

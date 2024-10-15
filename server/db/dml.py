@@ -24,8 +24,16 @@ def insert_rows():
         conn.commit()
         
         with conn.cursor() as cursor:
-        # INSERT Car
+            _unique_car = set() 
+    
             for car in cars:
+                _unique_car.add((car['maker'], car['car_name'],  car['car_type'],  car['national_subsidy']))
+                
+            unique_car = [{'maker': maker, 'car_name': car_name, 'car_type': car_type, 'national_subsidy': national_subsidy} for maker, car_name,car_type,national_subsidy in _unique_car]
+        
+        # INSERT Car
+            for car in unique_car:
+                
                 car_type = car.get("car_type")
                 car_name = car.get("car_name")
                 maker = car.get("maker")
@@ -33,6 +41,7 @@ def insert_rows():
 
                 # INSERT 쿼리 작성 및 실행
                 cursor.execute(SQL_INSERT_CAR, (car_type, car_name, maker, national_subsidy))
+                
         conn.commit()
         
         with conn.cursor(pymysql.cursors.DictCursor) as cursor:
@@ -47,8 +56,9 @@ def insert_rows():
             for subsidy in cars:
                 city_name = subsidy.get("city_name")
                 state = subsidy.get("state")
-                city_subsidy = subsidy.get("city_subsidy")
+                city_subsidy = float(subsidy.get("city_subsidy").replace(',',''))
                 car_name = subsidy.get("car_name")
+                print(city_subsidy)
                 
                 city_id = None
                 car_id = None
@@ -56,12 +66,15 @@ def insert_rows():
                 for city in city_rows:
                     if city['state'] == state and city['city_name'] == city_name:
                         city_id = city['city_id']
+                        
                         break 
-                for c in car_rows:
-                    if c['car_name'] == car_name :
-                        car_id = c['car_id']
+                    
+                for car in car_rows:
+                    if car['car_name'] == car_name :
+                        car_id = car['car_id']
                         break     
                     
+
                 if city_id is not None and car_id is not None:
                     subsidy_to_insert.append((datetime.today().year, city_subsidy, city_id, car_id))
             

@@ -119,9 +119,9 @@ def crawling_subsidy():
                     'maker': mk,
                     'car_name': mdl,
                     'national_subsidy': sn,
-                    'city_subcsidy': sc,
+                    'city_subsidy': sc,
                     'state': state_list[i],
-                    'city': city_list[i]
+                    'city_name': city_list[i]
                 })
 
             # 현재 창 닫기

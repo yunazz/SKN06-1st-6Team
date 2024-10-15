@@ -2,7 +2,7 @@ SQL_TB_CAR = '''
 CREATE TABLE car (  
     car_id int unsigned auto_increment primary key,
     car_type varchar(10) not null,
-    car_name varchar(30) not null unique,
+    car_name varchar(50) not null unique,
     maker varchar(20) not null,
     national_subsidy DECIMAL(11, 0) default 0.00 not null
 ) 
