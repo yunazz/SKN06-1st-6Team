@@ -1,4 +1,4 @@
-from db.ddl import create_tables
+from db.ddl import create_DB, create_tables
 from db.dml import insert_rows
 from crawling.subsidy import crawling_subsidy
 from crawling.city import crawling_city
