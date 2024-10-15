@@ -42,7 +42,7 @@ $ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-1st-6Team.git
 $ python server/init.py
 ```
 
-2. **Streamlit**을 이용하여 `app.py` 웹앱을 작동시킵니다.
+2. **Streamlit**을 이용하여 `app.py` 웹앱 실행
 ```bash
 $ streamlit run runner.py
 ```
