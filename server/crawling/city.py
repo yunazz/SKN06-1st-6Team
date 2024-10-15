@@ -8,7 +8,7 @@ import time
 import json
 import os
 
-def crawling_tel():
+def crawling_city():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     url = 'https://ev.or.kr/nportal/buySupprt/initSubsidyPaymentCheckAction.do'
     driver.get(url)
