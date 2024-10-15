@@ -13,7 +13,7 @@
 
 | 박유나 | 박미현 | 정유진 | 정민준 |
 |:----------:|:----------:|:----------:|:----------:|
-| <img width="120px" src="https://cdn.discordapp.com/attachments/1293846156245340201/1295560737007210636/af16252c19b30004.jpg?ex=670f1876&is=670dc6f6&hm=dd7a34a2dc33cf78f331c8377a9343a3c35af1c12312000e980d78038ac1844a&" /> | <img width="120px" src="info/미현.jpg" /> | <img width="120px" src="info/유진.png" /> |  <img width="120px" src="info/스크린샷 2024-10-15 오전 10.08.35.png" /> |
+| <img width="120px" src="https://cdn.discordapp.com/attachments/1293846156245340201/1295560737007210636/af16252c19b30004.jpg?ex=670f1876&is=670dc6f6&hm=dd7a34a2dc33cf78f331c8377a9343a3c35af1c12312000e980d78038ac1844a&" /> | <img width="120px" src="https://cdn.discordapp.com/attachments/1293846156245340201/1295563958656307281/IMG_8789.png?ex=670f1b76&is=670dc9f6&hm=b104fae220df1d6b0a8b496c338c48216b0ea0d08583263e9c0dd85aa22cebb9&" /> | <img width="120px" src="info/유진.png" /> |  <img width="120px" src="info/민준.jpeg" /> |
 | [@Yuna Park](https://github.com/yunazz) | [@Park, Mihyeon](https://github.com/ppim321) | [@RealOil](https://github.com/RealOil) | [@MinJun Jung](https://github.com/samking1234-Apple) |
 
 ## 프로젝트 개요 및 소개
