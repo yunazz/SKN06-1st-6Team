@@ -94,8 +94,9 @@ $ streamlit run runner.py
 ├── server
 │   └── crawling
 │       ├── data
-│           ├── connectTB.py : SQL Alchemy를 이용한 DB 연동
-            └── crawling_sele.py : Selenium 기반 크롤링 툴 정리
+│           ├── car_detail.json : 차량 상세 정보 크롤링 결과값
+│           ├── car.json : 자동차, 보조금 관련 크롤링 결과값
+            └── city.json : 도/시 정보 및 지역 상담 연락처
 │       ├── car_detail.py
 │       ├── city.py
 │       └── subsidy.py
