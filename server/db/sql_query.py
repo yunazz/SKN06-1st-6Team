@@ -38,8 +38,19 @@ CREATE TABLE city (
 ) 
 '''
 
-SQL_INSERT_CAR = 'INSERT INTO car (car_type, car_name, maker, national_subsidy) values(%s, %s, %s,%s)'
+SQL_INSERT_CAR = 'INSERT INTO car (car_type, car_name, maker, national_subsidy) values (%s, %s, %s,%s)'
 
-SQL_INSERT_CITY = 'INSERT INTO city (state, city_name, city_phone, city_dpt) values(%s, %s, %s,%s)'
+SQL_INSERT_CITY = 'INSERT INTO city (state, city_name, city_phone, city_dpt) values (%s, %s, %s,%s)'
 
-SQL_INSERT_SUBSIDY  = 'INSERT INTO subsidy (subsidy_year, city_subsidy, city_id, car_id) values(%s, %s, %s, %s)'
+SQL_INSERT_SUBSIDY  = 'INSERT INTO subsidy (subsidy_year, city_subsidy, city_id, car_id) values (%s, %s, %s, %s)'
+
+SQL_UPDATE_CAR_DETAIL = '''
+UPDATE SET car (
+    passenger_cnt = %s, 
+    max_speed = %s, 
+    range_per_charge = %s, 
+    battery = %s, 
+    maker_phone = %s, 
+    maker_nation = %s
+) WHERE car_id = %s
+'''

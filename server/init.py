@@ -17,7 +17,7 @@ if __name__ == '__main__':
         # 크롤링 시간이 오래 걸려 미리 만들어 놓은 /crawling/data/*.json 참조하기 위해 주석처리
         # crawling_subsidy() 
         # crawling_city()
-        crawling_car_detail()
+        # crawling_car_detail()
         
         insert_rows()
     except:
