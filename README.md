@@ -33,14 +33,14 @@ $ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-1st-6Team.git
 ```
 
 ### Step-by-Step guide
-1. `city.py`, 'subsidy.py', 'car.py' 를 실행하여 전기차종별 정보, 지역별 보조금 정보를 제이슨 파일로 저장합니다.
+1. `city.py`, `subsidy.py`, `car.py` 를 실행하여 전기차종별 정보, 지역별 보조금 정보를 제이슨 파일로 저장합니다.
 ```bash
 $ python city.py
 $ python subsidy.py
 $ python car.py
 ```
 
-2. `ddl.py`, 'dml.py', 'sql_query.py'를 실행하여 데이터베이스를 구축하고 저장합니다.
+2. `ddl.py`, `dml.py`, `sql_query.py`를 실행하여 데이터베이스를 구축하고 저장합니다.
 ```bash
 $ python ddl.py
 $ python dml.py
