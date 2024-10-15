@@ -13,11 +13,11 @@
 
 | 박유나 | 박미현 | 정유진 | 정민준 |
 |:----------:|:----------:|:----------:|:----------:|
-| <img width="120px" src="" /> | <img width="120px" src="info/미현.jpg" /> | <img width="120px" src="info/유진.png" /> |  <img width="120px" src="info/스크린샷 2024-10-15 오전 10.08.35.png" /> |
+| <img width="120px" src="https://cdn.discordapp.com/attachments/1293846156245340201/1295560737007210636/af16252c19b30004.jpg?ex=670f1876&is=670dc6f6&hm=dd7a34a2dc33cf78f331c8377a9343a3c35af1c12312000e980d78038ac1844a&" /> | <img width="120px" src="info/미현.jpg" /> | <img width="120px" src="info/유진.png" /> |  <img width="120px" src="info/스크린샷 2024-10-15 오전 10.08.35.png" /> |
 | [@Yuna Park](https://github.com/yunazz) | [@Park, Mihyeon](https://github.com/ppim321) | [@RealOil](https://github.com/RealOil) | [@MinJun Jung](https://github.com/samking1234-Apple) |
 
 ## 프로젝트 개요 및 소개
-최근 우리나라는 자동차 업계에 전기자동자 분야가 급 부상하면서 소비자들의 구매욕구가 증가중이다. 그러나, 증가하는 수요와 다르게 보조금 지원 조회가 복잡하고 차량정보 또한 한번에 찾을 수 있는 프로그램은 없었다.
+최근 우리나라는 자동차 업계에 전기자동자 분야가 급부상하면서 소비자들의 구매욕구가 증가중이다. 그러나, 증가하는 수요와 다르게 보조금 지원 조회가 복잡하고 차량정보 또한 한번에 찾을 수 있는 프로그램은 없었다.
 저희는 이러한 불편함을 개선하고자 국내 존재하는 차량 브랜드들의 전기차 정보와 지역별 보조금 정보를 한번에 확인할 수 있는 **통합 검색 어플리케이션**을 구축하였습니다.
 
 ## 시작 가이드
@@ -33,14 +33,14 @@ $ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-1st-6Team.git
 ```
 
 ### Step-by-Step guide
-1. `city.py`, 'subsidy.py', 'car.py' 를 실행하여 전기차종별 정보, 지역별 보조금 정보를 제이슨 파일로 저장합니다.
+1. `city.py`, `subsidy.py`, `car.py` 를 실행하여 전기차종별 정보, 지역별 보조금 정보를 제이슨 파일로 저장합니다.
 ```bash
 $ python city.py
 $ python subsidy.py
 $ python car.py
 ```
 
-2. `ddl.py`, 'dml.py', 'sql_query.py'를 실행하여 데이터베이스를 구축하고 저장합니다.
+2. `ddl.py`, `dml.py`, `sql_query.py`를 실행하여 데이터베이스를 구축하고 저장합니다.
 ```bash
 $ python ddl.py
 $ python dml.py
