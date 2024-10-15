@@ -58,7 +58,6 @@ def insert_rows():
                 state = subsidy.get("state")
                 city_subsidy = float(subsidy.get("city_subsidy").replace(',',''))
                 car_name = subsidy.get("car_name")
-                print(city_subsidy)
                 
                 city_id = None
                 car_id = None
