@@ -8,7 +8,13 @@ CREATE TABLE car (
     car_type varchar(10) not null,
     car_name varchar(50) not null unique,
     maker varchar(20) not null,
-    national_subsidy DECIMAL(11, 0) default 0.00 not null
+    national_subsidy DECIMAL(11, 0) default 0.00 not null,
+    passenger_cnt int default 0,
+    max_speed varchar(20),
+    range_per_charge varchar(20),
+    battery varchar(20),
+    maker_phone varchar(13),
+    maker_nation varchar(20),
 ) 
 '''
     

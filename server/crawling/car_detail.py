@@ -6,6 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import time
+import os
+import json
 
 # 드라이버 설정 및 URL 이동
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -20,7 +22,6 @@ wait = WebDriverWait(driver, 10)
 all_data = []
 
 def crawling():
-    """현재 페이지에서 전기차 정보를 수집하는 함수"""
     car_name, car_person_num, max_speed, dis_per_charge, battery, sub, phone_num, maker, makerN = [], [], [], [], [], [], [], [], []
 
     try:
@@ -30,9 +31,7 @@ def crawling():
         max_speeds = driver.find_elements(By.CSS_SELECTOR, ".itemCont a dl dd:nth-child(3)")
         dis_per_charges = driver.find_elements(By.CSS_SELECTOR, ".itemCont a dl dd:nth-child(4)")
         batterys = driver.find_elements(By.CSS_SELECTOR, ".itemCont a dl dd:nth-child(5)")
-        subs = driver.find_elements(By.CSS_SELECTOR, ".itemCont a dl dd:nth-child(6)")
         phone_nums = driver.find_elements(By.CSS_SELECTOR, ".itemCont a dl dd:nth-child(7)")
-        makers = driver.find_elements(By.CSS_SELECTOR, ".itemCont a dl dd:nth-child(8)")
         makerNs = driver.find_elements(By.CSS_SELECTOR, ".itemCont a dl dd:nth-child(9)")
 
         # 데이터를 리스트에 저장
@@ -42,9 +41,7 @@ def crawling():
             max_speed.extend([i.text for i in max_speeds])
             dis_per_charge.extend([i.text for i in dis_per_charges])
             battery.extend([i.text for i in batterys])
-            sub.extend([i.text for i in subs])
             phone_num.extend([i.text for i in phone_nums])
-            maker.extend([i.text for i in makers])
             makerN.extend([i.text for i in makerNs])
         else:
             print("데이터가 없습니다.")
@@ -54,10 +51,9 @@ def crawling():
         print("데이터 로드 시간 초과.")
         return None
 
-    return car_name, car_person_num, max_speed, dis_per_charge, battery, sub, phone_num, maker, makerN
+    return car_name, car_person_num, max_speed, dis_per_charge, battery, phone_num, makerN
 
 def go_to_next_page():
-    """다음 페이지로 이동하는 함수"""
     try:
         # 다음 페이지 버튼을 찾고 클릭
         next_button = driver.find_element(By.CSS_SELECTOR, "#pageingPosition > a.next.arrow")
@@ -69,7 +65,6 @@ def go_to_next_page():
         return False
 
 def fetch_data(company_name):
-    """지정한 회사의 정보를 크롤링하는 함수"""
     try:
         # 'schCompany' 드롭다운에서 제조사 선택
         dropdown = Select(driver.find_element(By.ID, 'schCompany'))
@@ -91,21 +86,19 @@ def fetch_data(company_name):
             if not car_data:
                 break
 
-            car_name, car_person_num, max_speed, dis_per_charge, battery, sub, phone_num, maker, makerN = car_data
+            car_name, car_person_num, max_speed, dis_per_charge, battery, phone_num, makerN = car_data
 
             # 중복 없이 새로운 데이터를 수집
-            for cn, cpn, ms, dpc, ba, sb, pn, ma, maN in zip(car_name, car_person_num, max_speed, dis_per_charge, battery, sub, phone_num, maker, makerN):
-                if cn and {'차종': cn, '승차인원': cpn, '최고속도출력': ms, '1회충전주행거리': dpc, '배터리': ba, '국고보조금': sb, '판매사연락처': pn, '제조사': ma, '제조국가': maN} not in all_data:
+            for cn, cpn, ms, dpc, ba, pn, maN in zip(car_name, car_person_num, max_speed, dis_per_charge, battery, phone_num, makerN):
+                if cn and {'car_name': cn, 'passenger_cnt': cpn, 'max_speed': ms, 'range_per_charge': dpc, 'battery': ba,  'maker_phone': pn, 'maker_nation': maN} not in all_data:
                     all_data.append({
-                        '차종': cn,
-                        '승차인원': cpn,
-                        '최고속도출력': ms,
-                        '1회충전주행거리': dpc,
-                        '배터리': ba,
-                        '국고보조금': sb,
-                        '판매사연락처': pn,
-                        '제조사': ma,
-                        '제조국가': maN
+                        'car_name': cn,
+                        'passenger_cnt': cpn,
+                        'max_speed': ms,
+                        'range_per_charge': dpc,
+                        'battery': ba,
+                        'maker_phone': pn,
+                        'maker_nation': maN
                     })
 
             # 수집된 데이터의 개수가 변하지 않으면 마지막 페이지로 간주하고 종료
@@ -130,10 +123,9 @@ for company in companies:
 
 # 수집한 정보를 JSON 파일로 저장
 os.makedirs('server/crawling/data', exist_ok=True)
-with open('server/crawling/data/cardetail.json', 'w', encoding='utf-8') as file:
+with open('server/crawling/data/car_detail.json', 'w', encoding='utf-8') as file:
     json.dump(all_data, file, ensure_ascii=False, indent=4)
 
-print("크롤링 완료! 데이터가 car_data.txt에 저장되었습니다.")
 
 # 드라이버 종료
 driver.quit()
