@@ -34,21 +34,15 @@ $ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-1st-6Team.git
 ```
 
 ### Step-by-Step guide
-1. `city.py`, `subsidy.py`, `car.py` 를 실행하여 전기차종별 정보, 지역별 보조금 정보를 제이슨 파일로 저장합니다.
+1. init.py : Crawling > DDL > DML
+   - 전기차종별 정보, 지역별 보조금 정보를 크롤링하여 JSON 파일로 저장 (./server/data 디렉토리에 저장)
+   - DDL(Data Definition Language): DB 및 Table 생성
+   - DML(Data Manipulation Language): 크롤링한 데이터를 DB에 저장
 ```bash
-$ python city.py
-$ python subsidy.py
-$ python car.py
+$ python server/init.py
 ```
 
-2. `ddl.py`, `dml.py`, `sql_query.py`를 실행하여 데이터베이스를 구축하고 저장합니다.
-```bash
-$ python ddl.py
-$ python dml.py
-$ python sql_query.py
-```
-
-3. **Streamlit**을 이용하여 `runner.py` 웹앱을 작동시킵니다.
+2. **Streamlit**을 이용하여 `app.py` 웹앱을 작동시킵니다.
 ```bash
 $ streamlit run runner.py
 ```
