@@ -91,31 +91,19 @@ $ streamlit run runner.py
 ### 디렉토리 구조
 ```bash
 .
-├── crawlingDB
-│   └── helpers
-│       ├── base
-│       │   └── crawling_sele.py : Selenium 기반 크롤링 툴 정리
-│       ├── connectTB.py : SQL Alchemy를 이용한 DB 연동
-│       ├── crawling_genesis.py
-│       ├── crawling_hyundai.py
-│       ├── crawling_kia.py
-│       └── make_brandTB.py : default TABLE 구조 저장
-├── crawling_runner.py : 각 브랜드의 FAQ 크롤링
-├── csv_to_db_runner.py : csv파일을 이용하여 DB에 데이터 넣기
-├── getQuery.py : SQL Alchemy를 이용해 SELECT 쿼리 실행
-├── result
-│   ├── total_genesis.csv
-│   ├── total_hyundai.csv
-│   └── total_kia.csv
-├── runner.py : Streamlit을 이용한 Webapp runner
-└── source
-    ├── car.jpg
-    ├── home.py
-    ├── make_csv.py
-    ├── multiapp.py
-    ├── page1.py
-    ├── page2.py
-    └── requirements.txt
+├── server
+│   └── crawling
+│       ├── data
+│           ├── connectTB.py : SQL Alchemy를 이용한 DB 연동
+            └── crawling_sele.py : Selenium 기반 크롤링 툴 정리
+│       ├── car_detail.py
+│       ├── city.py
+│       └── subsidy.py
+│   └── db
+│       ├── ddl.py
+│       ├── dml.py
+│       └── sql_query.py
+└── app.py : Streamlit을 이용한 Webapp runner
 ```
 
 ### 데이터베이스 구조
