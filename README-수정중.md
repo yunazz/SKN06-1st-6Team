@@ -13,7 +13,7 @@
 
 | 박유나 | 박미현 | 정유진 | 정민준 |
 |:----------:|:----------:|:----------:|:----------:|
-| <img width="120px" src="" /> | <img width="120px" src="" /> | <img width="120px" src="" /> |  <img width="120px" src="info/스크린샷 2024-10-15 오전 10.08.35.png" /> |
+| <img width="120px" src="" /> | <img width="120px" src="info/미현.jpg" /> | <img width="120px" src="info/유진.png" /> |  <img width="120px" src="info/스크린샷 2024-10-15 오전 10.08.35.png" /> |
 | [@Yuna Park](https://github.com/yunazz) | [@Park, Mihyeon](https://github.com/ppim321) | [@RealOil](https://github.com/RealOil) | [@MinJun Jung](https://github.com/samking1234-Apple) |
 
 ## 프로젝트 개요 및 소개
