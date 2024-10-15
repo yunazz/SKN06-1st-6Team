@@ -12,8 +12,9 @@ SQL_TB_SUBSIDY = '''
 CREATE TABLE subsidy (  
     subsidy_id int unsigned auto_increment primary key,
     subsidy_year YEAR not null, 
-    subsidy DECIMAL(11, 0),
-    city_id int not null
+    city_subsidy DECIMAL(11, 0),
+    city_id int not null,
+    car_id int not null
 ) 
 '''
 
@@ -30,3 +31,5 @@ CREATE TABLE city (
 SQL_INSERT_CAR = 'INSERT INTO car (car_type, car_name, maker, national_subsidy) values(%s, %s, %s,%s)'
 
 SQL_INSERT_CITY = 'INSERT INTO city (state, city_name, city_phone, city_dpt) values(%s, %s, %s,%s)'
+
+SQL_INSERT_SUBSIDY  = 'INSERT INTO subsidy (subsidy_year, city_subsidy, city_id, car_id) values(%s, %s, %s, %s)'
