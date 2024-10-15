@@ -9,7 +9,7 @@ import time
 import json
 import os
 
-def crawling_car():
+def crawling_car_detail():
     # 드라이버 설정 및 URL 이동
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.set_window_size(1280, 800)
@@ -23,7 +23,7 @@ def crawling_car():
         all_data = []
         
         def crawling():
-            """현재 페이지에서 전기차 정보를 수집하는 함수"""
+            # """현재 페이지에서 전기차 정보를 수집하는 함수"""
             car_name, car_person_num, max_speed, dis_per_charge, battery, sub, phone_num, maker, makerN = [], [], [], [], [], [], [], [], []
         
             try:
@@ -74,7 +74,7 @@ def crawling_car():
         def fetch_data(company_name):
             """지정한 회사의 정보를 크롤링하는 함수"""
             try:
-                # 'schCompany' 드롭다운에서 제조사 선택
+                # 'schCompany' 드롭다운에서 maker 선택
                 dropdown = Select(driver.find_element(By.ID, 'schCompany'))
                 dropdown.select_by_visible_text(company_name)
                 time.sleep(2)  # Allow dropdown to update
@@ -94,21 +94,20 @@ def crawling_car():
                     if not car_data:
                         break
         
-                    car_name, car_person_num, max_speed, dis_per_charge, battery, sub, phone_num, maker, makerN = car_data
+                    car_name, car_person_num, max_speed, dis_per_charge, battery, phone_num, maker, makerN = car_data
         
                     # 중복 없이 새로운 데이터를 수집
-                    for cn, cpn, ms, dpc, ba, sb, pn, ma, maN in zip(car_name, car_person_num, max_speed, dis_per_charge, battery, sub, phone_num, maker, makerN):
-                        if cn and {'차종': cn, '승차인원': cpn, '최고속도출력': ms, '1회충전주행거리': dpc, '배터리': ba, '국고보조금': sb, '판매사연락처': pn, '제조사': ma, '제조국가': maN} not in all_data:
+                    for cn, cpn, ms, dpc, ba, pn, ma, maN in zip(car_name, car_person_num, max_speed, dis_per_charge, battery, phone_num, maker, makerN):
+                        if cn and {'car_name': cn, 'passenger_cnt': cpn, 'max_speed': ms, 'range_per_charge': dpc, 'battery': ba, 'maker_phone': pn, 'maker': ma, 'maker_nation': maN} not in all_data:
                             all_data.append({
-                                '차종': cn,
-                                '승차인원': cpn,
-                                '최고속도출력': ms,
-                                '1회충전주행거리': dpc,
-                                '배터리': ba,
-                                '국고보조금': sb,
-                                '판매사연락처': pn,
-                                '제조사': ma,
-                                '제조국가': maN
+                                'car_name': cn,
+                                'passenger_cnt': cpn,
+                                'max_speed': ms,
+                                'range_per_charge': dpc,
+                                'battery': ba.replace('배터리 :', ''),
+                                'maker_phone': pn,
+                                'maker': ma,
+                                'maker_nation': maN
                             })
         
                     # 수집된 데이터의 개수가 변하지 않으면 마지막 페이지로 간주하고 종료
@@ -124,16 +123,16 @@ def crawling_car():
             except Exception as e:
                 print(f"{company_name} 정보 크롤링 중 오류 발생: {e}")
         
-        # 제조사 목록
+        # maker 목록
         companies = ["기아", "마이브", "메르세데스벤츠코리아", "볼보자동차코리아", "스텔란티스코리아", "쎄보모빌리티", "케이지모빌리티", "테슬라코리아", "폭스바겐그룹코리아", "폴스타오토모티브코리아", "한국토요타자동차", "현대자동차", "BMW"]
         
-        # 각 제조사에 대해 데이터 수집
+        # 각 maker에 대해 데이터 수집
         for company in companies:
             fetch_data(company)
         
         # 수집한 정보를 JSON 파일로 저장
             os.makedirs('server/crawling/data', exist_ok=True)
-            with open('server/crawling/data/car_data.json', 'w', encoding='utf-8') as file:
+            with open('server/crawling/data/car_detail.json', 'w', encoding='utf-8') as file:
                 json.dump(all_data, file, ensure_ascii=False, indent=4)
         
     except Exception as e:
@@ -142,9 +141,9 @@ def crawling_car():
     finally:
         # 드라이버 종료
         driver.quit()
-    return 'car_data.json'
+    return 'car_detail.json'
 
 
 
 if __name__ == "__main__":
-    crawling_car()
+    crawling_car_detail()

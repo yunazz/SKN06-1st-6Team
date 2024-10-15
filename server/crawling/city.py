@@ -98,4 +98,4 @@ def crawling_city():
         return 'city.json'
 
 if __name__ == "__main__":
-    crawling_tel()
+    crawling_city()
