@@ -1,1 +1,866 @@
-[]
+[
+    {
+        "car_name": "EV6 롱레인지 2WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 483km (저온) 446km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV6 롱레인지 2WD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 445km (저온) 411km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV6 롱레인지 4WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:188km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 458km (저온) 414km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV6 롱레인지 4WD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:188km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 407km (저온) 380km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV6 스탠다드 2WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 377km (저온) 347km",
+        "battery": "- 배터리 :리튬이온(58.124kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "니로 플러스(DP)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:167km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 393km (저온) 353km",
+        "battery": "- 배터리 :리튬이온(64.08kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV6 GT",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:260km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 342km (저온) 311km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV6 스탠다드 4WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:188km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 362km (저온) 324km",
+        "battery": "- 배터리 :리튬이온(58.124kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV9 2WD 19인치",
+        "passenger_cnt": "- 승차인원:6, 7인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 508km (저온) 368km",
+        "battery": "- 배터리 :리튬이온(99.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV9 2WD 20인치",
+        "passenger_cnt": "- 승차인원:6, 7인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 490km (저온) 370km",
+        "battery": "- 배터리 :리튬이온(99.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "The all-new Kia Niro EV(24MY)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:167km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 404km (저온) 303km",
+        "battery": "- 배터리 :리튬이온(64.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "레이 EV 2WD 14인치 4인승 승용",
+        "passenger_cnt": "- 승차인원:(경형) 4인승",
+        "max_speed": "- 최고속도출력:135km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 210km (저온) 167km",
+        "battery": "- 배터리 :리튬인산철(35.2kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV9 4WD 19인치",
+        "passenger_cnt": "- 승차인원:6, 7인승",
+        "max_speed": "- 최고속도출력:200km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 453km (저온) 337km",
+        "battery": "- 배터리 :리튬이온(99.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV9 4WD 21인치",
+        "passenger_cnt": "- 승차인원:6, 7인승",
+        "max_speed": "- 최고속도출력:200km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 461km (저온) 352km",
+        "battery": "- 배터리 :리튬이온(99.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV9 GTL 4WD 21인치",
+        "passenger_cnt": "- 승차인원:6, 7인승",
+        "max_speed": "- 최고속도출력:200km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 452km (저온) 321km",
+        "battery": "- 배터리 :리튬이온(99.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴EV6 롱레인지 4WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:188km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 461km (저온) 380km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "레이 EV 2WD 14인치 1인승 밴",
+        "passenger_cnt": "- 승차인원:(경형) 1인승",
+        "max_speed": "- 최고속도출력:135km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 210km (저온) 167km",
+        "battery": "- 배터리 :리튬인산철(35.2kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "레이 EV 2WD 14인치 2인승 밴",
+        "passenger_cnt": "- 승차인원:(경형) 2인승",
+        "max_speed": "- 최고속도출력:135km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 210km (저온) 167km",
+        "battery": "- 배터리 :리튬인산철(35.2kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV3 롱레인지 2WD 17인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:170km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 510km (저온) 401km",
+        "battery": "- 배터리 :리튬이온(81.3kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV3 롱레인지 2WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:170km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 485km (저온) 382km",
+        "battery": "- 배터리 :리튬이온(81.3kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "EV3 스탠다드 2WD",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:170km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 347km (저온) 292km",
+        "battery": "- 배터리 :리튬이온(58.3kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴EV6 롱레인지 2WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:186km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 505km (저온) 391km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴EV6 롱레인지 2WD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:186km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 462km (저온) 370km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴EV6 롱레인지 4WD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:188km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 437km (저온) 353km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "The all-new Kia Niro EV(25MY)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:167km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 404km (저온) 303km",
+        "battery": "- 배터리 :리튬이온(64.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-200-2000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "마이브 M1",
+        "passenger_cnt": "- 승차인원:2인승",
+        "max_speed": "- 최고속도출력:80km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 56.9km (저온) 52.9km",
+        "battery": "- 배터리 :리튬이온(10.08kWh)",
+        "maker_phone": "- 판매사연락처 :1544-0703",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "EQA250(Facelift)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 367km (저온) 298km",
+        "battery": "- 배터리 :리튬이온(68.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-001-1886",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "EQB300 4MATIC(Facelift)(5인승)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 302km (저온) 255km",
+        "battery": "- 배터리 :리튬이온(68.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-001-1886",
+        "maker_nation": "- 제조국가 :헝가리"
+    },
+    {
+        "car_name": "EQB300 4MATIC(Facelift)(7인승)",
+        "passenger_cnt": "- 승차인원:7인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 302km (저온) 255km",
+        "battery": "- 배터리 :리튬이온(68.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-001-1886",
+        "maker_nation": "- 제조국가 :헝가리"
+    },
+    {
+        "car_name": "EQB300 4MATIC(Pre-Facelift)(5인승)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 312.590km (저온) 225.665km",
+        "battery": "- 배터리 :리튬이온(67.9kWh)",
+        "maker_phone": "- 판매사연락처 :080-001-1886",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "EQB300 4MATIC(Pre-Facelift)(7인승)",
+        "passenger_cnt": "- 승차인원:7인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 312.590km (저온) 225.665km",
+        "battery": "- 배터리 :리튬이온(67.9kWh)",
+        "maker_phone": "- 판매사연락처 :080-001-1886",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "볼보 C40 Recharge Twin",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:180km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 407km (저온) 305km",
+        "battery": "- 배터리 :리튬이온(77.8kWh)",
+        "maker_phone": "- 판매사연락처 :1588-1777",
+        "maker_nation": "- 제조국가 :벨기에"
+    },
+    {
+        "car_name": "볼보 XC40 Recharge Twin",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:180km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 389km (저온) 296km",
+        "battery": "- 배터리 :리튬이온(78kWh)",
+        "maker_phone": "- 판매사연락처 :1588-1777",
+        "maker_nation": "- 제조국가 :벨기에"
+    },
+    {
+        "car_name": "Peugeot e-2008 SUV",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:150km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 265km (저온) 235km",
+        "battery": "- 배터리 :리튬이온(47.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-365-1200",
+        "maker_nation": "- 제조국가 :프랑스"
+    },
+    {
+        "car_name": "Peugeot e-208",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:150km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 277km (저온) 218km",
+        "battery": "- 배터리 :리튬이온(47.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-365-1200",
+        "maker_nation": "- 제조국가 :프랑스"
+    },
+    {
+        "car_name": "짚 어벤저",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:150km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 295km (저온) 274km",
+        "battery": "- 배터리 :리튬이온(54.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-365-2470",
+        "maker_nation": "- 제조국가 :폴란드"
+    },
+    {
+        "car_name": "CEVO-C SE",
+        "passenger_cnt": "- 승차인원:2인승",
+        "max_speed": "- 최고속도출력:80km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 75.4km (저온) 63.8km",
+        "battery": "- 배터리 :리튬이온(10.16kWh)",
+        "maker_phone": "- 판매사연락처 :1522-9282",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "CEVO-C SE VAN",
+        "passenger_cnt": "- 승차인원:1인승",
+        "max_speed": "- 최고속도출력:80km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 75.4km (저온) 63.8km",
+        "battery": "- 배터리 :리튬이온(10.16kWh)",
+        "maker_phone": "- 판매사연락처 :1522-9282",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "코란도 EV 2WD",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:171km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 404km (저온) 329km",
+        "battery": "- 배터리 :리튬인산철(73.7kWh)",
+        "maker_phone": "- 판매사연락처 :080-500-5582",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "토레스 EVX 2WD 18인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:174km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 433km (저온) 333km",
+        "battery": "- 배터리 :리튬인산철(73.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-500-5582",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "토레스 EVX 2WD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:174km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 405km (저온) 284km",
+        "battery": "- 배터리 :리튬인산철(73.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-500-5582",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "Model 3 Long Range",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:201km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 488km (저온) 389km",
+        "battery": "- 배터리 :리튬이온(81.65kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Model 3 RWD",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:201km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 382km (저온) 290km",
+        "battery": "- 배터리 :리튬인산철(59.68kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Model Y Long Range",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:217km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 432km (저온) 343km",
+        "battery": "- 배터리 :리튬이온(81.65kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Model Y Long Range 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:217km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 468km (저온) 374km",
+        "battery": "- 배터리 :리튬이온(81.65kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Model Y RWD",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:217km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 356km (저온) 277km",
+        "battery": "- 배터리 :리튬인산철(59.68kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Model Y RWD(2023)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:217km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 350km (저온) 277km",
+        "battery": "- 배터리 :리튬인산철(59.68kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Model 3 Performance(2024)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:261km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 430km (저온) 358km",
+        "battery": "- 배터리 :리튬이온(81.65kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Model Y Performance",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:250km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 449km (저온) 346km",
+        "battery": "- 배터리 :리튬이온(81.65kWh)",
+        "maker_phone": "- 판매사연락처 :080-617-1388",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "아우디 Q4 40 e-tron",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 411km (저온) 268km",
+        "battery": "- 배터리 :리튬이온(82.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-767-2834",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "아우디 Q4 Sportback 40 e-tron",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 409km (저온) 269km",
+        "battery": "- 배터리 :리튬이온(82.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-767-2834",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "폭스바겐 ID.4 Pro",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 421km (저온) 292km",
+        "battery": "- 배터리 :리튬이온(82kWh)",
+        "maker_phone": "- 판매사연락처 :1577-6905",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "Polestar 2 Long Range Dual Motor(MY23)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:205km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 334km (저온) 251km",
+        "battery": "- 배터리 :리튬이온(77.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-360-0100",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Polestar 2 Long Range Dual Motor(MY24)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:205km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 379km (저온) 286km",
+        "battery": "- 배터리 :리튬이온(77.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-360-0100",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Polestar 2 Long Range Single Motor(MY23)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 417km (저온) 288km",
+        "battery": "- 배터리 :리튬이온(77.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-360-0100",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "Polestar 2 Long Range Single Motor(MY24)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:205km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 449km (저온) 332km",
+        "battery": "- 배터리 :리튬이온(77.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-360-0100",
+        "maker_nation": "- 제조국가 :중국"
+    },
+    {
+        "car_name": "렉서스 RZ450e",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:160km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 377km (저온) 290km",
+        "battery": "- 배터리 :리튬이온(71kWh)",
+        "maker_phone": "- 판매사연락처 :080-525-8255",
+        "maker_nation": "- 제조국가 :일본"
+    },
+    {
+        "car_name": "GV60 스탠다드 2WD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 470km (저온) 416km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "GV60 스탠다드 AWD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:200km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 403km (저온) 378km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "GV60 스탠다드 AWD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:200km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 386km (저온) 358km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "GV60 퍼포먼스 AWD 21인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:235km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 372km (저온) 302km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 2WD 롱레인지 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 423km (저온) 362km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 AWD 스탠다드 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 319km (저온) 280km",
+        "battery": "- 배터리 :리튬이온(58kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "Electrified GV70 AWD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:235km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 408km (저온) 353km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 2WD 롱레인지 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 469km (저온) 389km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 2WD 롱레인지 19인치 빌트인 캠 미적용",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 470km (저온) 399km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 2WD 스탠다드 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 342km (저온) 292km",
+        "battery": "- 배터리 :리튬이온(58.2kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 AWD 롱레인지 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 418km (저온) 386km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 AWD 롱레인지 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 397km (저온) 342km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "Electrified G80 AWD 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:225km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 433km (저온) 411km",
+        "battery": "- 배터리 :리튬이온(87.2kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "Electrified GV70 AWD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:235km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 376km (저온) 333km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉6 롱레인지 2WD 18인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 544km (저온) 428km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉6 롱레인지 2WD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 453km (저온) 386km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉6 롱레인지 AWD 18인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 499km (저온) 418km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉6 스탠다드 2WD 18인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 373km (저온) 294km",
+        "battery": "- 배터리 :리튬이온(53kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 AWD 롱레인지 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 434km (저온) 368km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉5 N",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:260km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 364km (저온) 331km",
+        "battery": "- 배터리 :리튬이온(84kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "아이오닉6 롱레인지 AWD 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 430km (저온) 342km",
+        "battery": "- 배터리 :리튬이온(77.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "코나 일렉트릭 2WD 롱레인지 17인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:172km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 419km (저온) 340km",
+        "battery": "- 배터리 :리튬이온(64.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "코나 일렉트릭 2WD 롱레인지 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:172km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 371km (저온) 307km",
+        "battery": "- 배터리 :리튬이온(64.8kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "코나 일렉트릭 2WD 스탠다드 17인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:162km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 313km (저온) 269km",
+        "battery": "- 배터리 :리튬이온(48.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 2WD 19인치 빌트인 캠 미적용",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 462km (저온) 369km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 2WD 롱레인지 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 462km (저온) 369km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 2WD 롱레인지 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 462km (저온) 369km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 AWD 롱레인지 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 434km (저온) 368km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "캐스퍼 일렉트릭 항속형 15인치",
+        "passenger_cnt": "- 승차인원:(소형) 4인승",
+        "max_speed": "- 최고속도출력:150km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 318km (저온) 254km",
+        "battery": "- 배터리 :리튬이온(49kWh)",
+        "maker_phone": "- 판매사연락처 :080-500-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "캐스퍼 일렉트릭 항속형 17인치",
+        "passenger_cnt": "- 승차인원:(소형) 4인승",
+        "max_speed": "- 최고속도출력:150km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 295km (저온) 245km",
+        "battery": "- 배터리 :리튬이온(49kWh)",
+        "maker_phone": "- 판매사연락처 :080-500-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "Electrified G80 AWD 19인치(2025)",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:225km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 489km (저온) 380km",
+        "battery": "- 배터리 :리튬이온(94.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 2WD 롱레인지 N라인 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 448km (저온) 354km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 2WD 스탠다드 19인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 368km (저온) 297km",
+        "battery": "- 배터리 :리튬이온(63.1kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "더뉴아이오닉5 AWD 롱레인지 N라인 20인치",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:185km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 411km (저온) 343km",
+        "battery": "- 배터리 :리튬이온(83.6kWh)",
+        "maker_phone": "- 판매사연락처 :080-600-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "캐스퍼 일렉트릭 기본형 15인치",
+        "passenger_cnt": "- 승차인원:(소형) 4인승",
+        "max_speed": "- 최고속도출력:140km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 281km (저온) 231km",
+        "battery": "- 배터리 :리튬이온(42.1kWh)",
+        "maker_phone": "- 판매사연락처 :080-500-6000",
+        "maker_nation": "- 제조국가 :대한민국"
+    },
+    {
+        "car_name": "i4 M50",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:225km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 385km (저온) 295km",
+        "battery": "- 배터리 :리튬이온(83.9kWh)",
+        "maker_phone": "- 판매사연락처 :080-700-8000",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "i4 eDrive40",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:190km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 444km (저온) 327km",
+        "battery": "- 배터리 :리튬이온(83.9kWh)",
+        "maker_phone": "- 판매사연락처 :080-700-8000",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "iX1 xDrive30",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:180km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 313km (저온) 268km",
+        "battery": "- 배터리 :리튬이온(66.4kWh)",
+        "maker_phone": "- 판매사연락처 :080-700-8000",
+        "maker_nation": "- 제조국가 :독일"
+    },
+    {
+        "car_name": "iX3 M Sport",
+        "passenger_cnt": "- 승차인원:5인승",
+        "max_speed": "- 최고속도출력:180km/h",
+        "range_per_charge": "- 1회충전주행거리 :(상온) 356.9km (저온) 255.1km",
+        "battery": "- 배터리 :리튬이온(80.04kWh)",
+        "maker_phone": "- 판매사연락처 :080-700-8000",
+        "maker_nation": "- 제조국가 :중국"
+    }
+]
