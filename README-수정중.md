@@ -6,26 +6,25 @@
 
 </div>
 
-# 통합 FAQ 조회 시스템
-> **SK Networks AI CAMP 1기** <br/> **개발기간: 2024.05.27 ~ 2024.05.28** 
+# 전기차 보조금 조회 어플리케이션 
+> **SK Networks AI CAMP 6기** <br/> **개발기간: 2024.10.11 ~ 2024.10.15** 
 
 ## 개발팀 소개
 
-| 김용현 | 정아람 | 최민지 | 한재혁 |
+| 박유나 | 박미현 | 정유진 | 정민준 |
 |:----------:|:----------:|:----------:|:----------:|
 | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/33ea2a85-1853-484b-b2a4-c750f854a26b" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/b24cae67-75d6-48aa-a94e-e847a769f2c0" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/a3b96d0b-7537-4670-afaa-57279dab5552" /> |  <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/036ed196-ea34-45d8-bc47-58d84c9927c9" /> |
-| [@younghyen7956](https://github.com/younghyen7956) | [@Ah-ram](https://github.com/Ah-ram) | [@Minn-ji](https://github.com/Minn-ji) | [@Jh-jaehyuk](https://github.com/Jh-jaehyuk) |
-| 전북대학교</br>통계학과 | 서경대학교</br>나노융합공학과 | 국민대학교</br>AI빅데이터융합경영학과 | 서울과학기술대학교</br>기계시스템디자인공학과  |
+| [@Yuna Park](https://github.com/yunazz) | [@Park, Mihyeon](https://github.com/ppim321) | [@RealOil](https://github.com/RealOil) | [@MinJun Jung](https://github.com/samking1234-Apple) |
 
 ## 프로젝트 개요 및 소개
-최근 우리나라는 자동차 산업의 수출액 증가로 인한 경제 성장과 교외 지역으로 이동하는 인구가 증가함에 따라 차량 대수가 증가하고 있습니다. 그러나, 증가하는 차량 수와는 다르게 브랜드에서 제공하는 차량에 관한 질문과 답변을 얻는 방법은 __각각의 브랜드 홈페이지에 방문하는 것__ 뿐이었습니다.  
-저희는 이러한 불편함을 개선하고자 국내 차량 점유율 상위 3개 브랜드의 FAQ를 한번에 확인할 수 있는 **통합 검색 시스템**을 구축하였습니다.
+최근 우리나라는 자동차 업계에 전기자동자 분야가 급 부상하면서 소비자들의 구매욕구가 증가중이다. 그러나, 증가하는 수요와 다르게 보조금 지원 조회가 복잡하고 차량정보 또한 한번에 찾을 수 있는 프로그램은 없었다.
+저희는 이러한 불편함을 개선하고자 국내 존재하는 차량 브랜드들의 전기차 정보와 지역별 보조금 정보를 한번에 확인할 수 있는 **통합 검색 어플리케이션**을 구축하였습니다.
 
 ## 시작 가이드
 ### Requirements
 For building and running the application you need:
 
-- [MariaDB 10.4.34](https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.4.34) or [MySQL 8.0.37](https://dev.mysql.com/downloads/installer/)
+- [MySQL 8.0.37](https://dev.mysql.com/downloads/installer/)
 - [Python >= 3.11.7](https://www.python.org/downloads/release/python-3119/)
 
 ### Installation
