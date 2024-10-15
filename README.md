@@ -44,7 +44,7 @@ $ python server/init.py
 
 2. **Streamlit**을 이용하여 `app.py` 웹앱 실행
 ```bash
-$ streamlit run runner.py
+$ streamlit run app.py
 ```
 ---
 ## Stacks :books:
