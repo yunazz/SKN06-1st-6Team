@@ -24,8 +24,8 @@ def get_state_names():
     return df
 
 # 데이터베이스에서 지역구분 목록 가져오기
-def get_city_names():
-    query = 'SELECT DISTINCT city_name FROM city'
+def get_city_names(state):
+    query = f'SELECT DISTINCT city_name FROM city WHERE state = "{state}"'
     df = pd.read_sql_query(query, db_connection)
     return df
 
@@ -36,8 +36,8 @@ def get_maker_names():
     return df
 
 # 데이터베이스에서 차량 모델 목록 가져오기
-def get_model_names():
-    query = 'SELECT DISTINCT car_name FROM car'
+def get_model_names(maker):
+    query = f'SELECT DISTINCT car_name FROM car WHERE maker = "{maker}"'
     df = pd.read_sql_query(query, db_connection)
     return df
 
@@ -46,22 +46,23 @@ def get_selected(value):
 
 ## Sidebar
 # sidebar에 셀렉박스 배치
-with st.sidebar.form(key='my_form'):
+with st.sidebar:
     state_names = get_state_names()
     state = st.selectbox('시/도를 고르세요',state_names)  # state
-
     # if state:
-    city_names = get_city_names()
+    selected_state = str(state)
+    st.write(selected_state)
+    city_names = get_city_names(selected_state)
     city = st.selectbox('지역을 고르세요',city_names)  # city
 
     maker_names = get_maker_names()
     maker = st.selectbox('판매사를 고르세요',maker_names) # brand
 
     # if maker:
-    car_names = get_model_names()
+    car_names = get_model_names(maker)
     car = st.selectbox('모델을 고르세요',car_names) # model
 
-    pressed = st.form_submit_button("조회")
+    pressed = st.button("조회")
 
 
 
@@ -118,6 +119,3 @@ if pressed:
     st.write(phone)
     total = read_df(q3)
     st.write(total)
-
-
-
