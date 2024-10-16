@@ -8,6 +8,8 @@ def insert_rows(password):
         cities = json.load(f)
     with open('server/crawling/data/car.json', 'r', encoding='utf-8') as f:
         cars = json.load(f)
+    with open('server/crawling/data/car_detail.json', 'r', encoding='utf-8') as f:
+        car_details = json.load(f)
         
     with pymysql.connect(host="localhost", port=3306, user="root", password=password, db="SKN06_6Team") as conn:
         with conn.cursor() as cursor:
@@ -80,30 +82,34 @@ def insert_rows(password):
 
         conn.commit()
 
-        # INSERT Car details     
+        # INSERT Car Details     
         with conn.cursor(pymysql.cursors.DictCursor) as cursor:
             cursor.execute('SELECT car_id, car_name from car')
             car_rows = cursor.fetchall()
-            
+                    
             details_to_insert = []
-            for car in cars:
+            for car in car_details:
                 passenger_cnt = car.get("passenger_cnt").replace('- 승차인원:','')
                 max_speed = car.get("max_speed").replace('- 최고속도출력:','')
                 range_per_charge = car.get("range_per_charge").replace('- 1회충전주행거리 :','')
                 battery = car.get("battery").replace('- 배터리 :','')
                 maker_phone = car.get("maker_phone").replace('- 판매사연락처 :','')
                 maker_nation = car.get("maker_nation").replace('- 제조국가 :','')
+                car_name = car.get("car_name")
+                
                 
                 car_id = None
-                    
+                
                 for car in car_rows:
                     if car['car_name'] == car_name :
                         car_id = car['car_id']
+                        
                         break     
 
                 if car_id is not None:
-                    subsidy_to_insert.append((passenger_cnt, max_speed, range_per_charge, battery, maker_phone, maker_nation, car_id))
-            print(details_to_insert)
+                    
+                    details_to_insert.append((passenger_cnt, max_speed, range_per_charge, battery, maker_phone, maker_nation, car_id))
+            
             cursor.executemany(SQL_UPDATE_CAR_DETAIL, details_to_insert)
             
         conn.commit()

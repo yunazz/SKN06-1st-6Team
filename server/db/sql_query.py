@@ -9,10 +9,10 @@ CREATE TABLE car (
     car_name varchar(50) not null unique,
     maker varchar(20) not null,
     national_subsidy DECIMAL(11, 0) default 0.00 not null,
-    passenger_cnt int default 0,
-    max_speed varchar(20),
-    range_per_charge varchar(20),
-    battery varchar(20),
+    passenger_cnt varchar(10),
+    max_speed varchar(30),
+    range_per_charge varchar(30),
+    battery varchar(30),
     maker_phone varchar(13),
     maker_nation varchar(20)
 ) 
@@ -45,12 +45,12 @@ SQL_INSERT_CITY = 'INSERT INTO city (state, city_name, city_phone, city_dpt) val
 SQL_INSERT_SUBSIDY  = 'INSERT INTO subsidy (subsidy_year, city_subsidy, city_id, car_id) values (%s, %s, %s, %s)'
 
 SQL_UPDATE_CAR_DETAIL = '''
-UPDATE SET car (
+UPDATE car SET 
     passenger_cnt = %s, 
     max_speed = %s, 
     range_per_charge = %s, 
     battery = %s, 
     maker_phone = %s, 
     maker_nation = %s
-) WHERE car_id = %s
+WHERE car_id = %s;
 '''
