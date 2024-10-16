@@ -1,9 +1,9 @@
 import pymysql
 import json
 from datetime import datetime
-from db.sql_query import SQL_INSERT_CAR, SQL_INSERT_CITY, SQL_UPDATE_CAR_DETAIL, SQL_UPDATE_CAR_DETAIL
+from db.sql_query import SQL_INSERT_CAR, SQL_INSERT_CITY, SQL_INSERT_SUBSIDY, SQL_UPDATE_CAR_DETAIL
 
-def insert_rows():
+def insert_rows(password):
     with open('server/crawling/data/city.json', 'r', encoding='utf-8') as f:
         cities = json.load(f)
     with open('server/crawling/data/car.json', 'r', encoding='utf-8') as f:
@@ -76,8 +76,8 @@ def insert_rows():
                 if city_id is not None and car_id is not None:
                     subsidy_to_insert.append((datetime.today().year, city_subsidy, city_id, car_id))
             
-            cursor.executemany(SQL_UPDATE_CAR_DETAIL, subsidy_to_insert)
-            
+            cursor.executemany(SQL_INSERT_SUBSIDY, subsidy_to_insert)
+
         conn.commit()
 
         # INSERT Car details     
@@ -86,7 +86,6 @@ def insert_rows():
             car_rows = cursor.fetchall()
             
             details_to_insert = []
-
             for car in cars:
                 passenger_cnt = car.get("passenger_cnt").replace('- 승차인원:','')
                 max_speed = car.get("max_speed").replace('- 최고속도출력:','')
@@ -101,11 +100,11 @@ def insert_rows():
                     if car['car_name'] == car_name :
                         car_id = car['car_id']
                         break     
-                    
+
                 if car_id is not None:
                     subsidy_to_insert.append((passenger_cnt, max_speed, range_per_charge, battery, maker_phone, maker_nation, car_id))
             print(details_to_insert)
-            # cursor.executemany(SQL_UPDATE_CAR_DETAIL, details_to_insert)
+            cursor.executemany(SQL_UPDATE_CAR_DETAIL, details_to_insert)
             
         conn.commit()
     return
