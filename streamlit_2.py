@@ -12,10 +12,9 @@ def read_json(path):
     return df
 
 ## 파일 전처리
-cardf = read_json("../car.json") # server/crawling/data/car.json
-citydf = read_json("../city.json") # server/crawling/data/city.json
-# dtaildf = read_json("car_detail.json") # server/crawling/data/car_detail.json
-with open("../car_detail.json", 'rt', encoding='utf-8') as fo:
+cardf = read_json("server/crawling/data/car.json")
+citydf = read_json("server/crawling/data/city.json")
+with open("server/crawling/data/car_detail.json", 'rt', encoding='utf-8') as fo:
     dtail = json.loads(fo.read())
 
 ## SelectBox 함수
