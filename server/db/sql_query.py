@@ -14,7 +14,7 @@ CREATE TABLE car (
     range_per_charge varchar(20),
     battery varchar(20),
     maker_phone varchar(13),
-    maker_nation varchar(20),
+    maker_nation varchar(20)
 ) 
 '''
     
