@@ -45,7 +45,7 @@ with st.sidebar:
 ## 값 받아오기
 # 선택된 차량의 정보
 for info in dtail:
-    if info['차종'] == car:
+    if info['car_name'] == car:
         detail = info
 # 선택된 지역의 지원금 정보
 sub = cardf[(cardf['city_name'] == city) & (cardf['car_name'] == car)]
