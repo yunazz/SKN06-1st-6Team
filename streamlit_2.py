@@ -12,10 +12,9 @@ def read_json(path):
     return df
 
 ## 파일 전처리
-cardf = read_json("../car.json") # server/crawling/data/car.json
-citydf = read_json("../city.json") # server/crawling/data/city.json
-# dtaildf = read_json("car_detail.json") # server/crawling/data/car_detail.json
-with open("../car_detail.json", 'rt', encoding='utf-8') as fo:
+cardf = read_json("server/crawling/data/car.json")
+citydf = read_json("server/crawling/data/city.json")
+with open("server/crawling/data/car_detail.json", 'rt', encoding='utf-8') as fo:
     dtail = json.loads(fo.read())
 
 ## SelectBox 함수
@@ -46,7 +45,7 @@ with st.sidebar:
 ## 값 받아오기
 # 선택된 차량의 정보
 for info in dtail:
-    if info['차종'] == car:
+    if info['car_name'] == car:
         detail = info
 # 선택된 지역의 지원금 정보
 sub = cardf[(cardf['city_name'] == city) & (cardf['car_name'] == car)]
