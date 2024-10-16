@@ -49,16 +49,13 @@ def get_selected(value):
 with st.sidebar:
     state_names = get_state_names()
     state = st.selectbox('시/도를 고르세요',state_names)  # state
-    # if state:
-    selected_state = str(state)
-    st.write(selected_state)
-    city_names = get_city_names(selected_state)
+
+    city_names = get_city_names(state)
     city = st.selectbox('지역을 고르세요',city_names)  # city
 
     maker_names = get_maker_names()
     maker = st.selectbox('판매사를 고르세요',maker_names) # brand
 
-    # if maker:
     car_names = get_model_names(maker)
     car = st.selectbox('모델을 고르세요',car_names) # model
 
