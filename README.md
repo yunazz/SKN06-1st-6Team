@@ -107,5 +107,5 @@ $ streamlit run app.py
 └── app.py : Streamlit을 이용한 Webapp runner
 ```
 
-### 데이터베이스 구조
+### 데이터베이스 구조 (ERD)
 <img width="1500" alt="image" src="server/crawling/data/erd.png">
