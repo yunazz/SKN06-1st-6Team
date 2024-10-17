@@ -8,13 +8,6 @@ def create_DB(password):
             # CREATE DATABASE
             cursor.execute("DROP DATABASE IF EXISTS SKN06_6Team")
             cursor.execute('CREATE DATABASE SKN06_6Team')
-            
-            cursor.execute(f"CREATE USER 'team06'@'localhost' IDENTIFIED BY '{password}'")
-            cursor.execute(f"GRANT ALL PRIVILEGES ON *.* TO 'team06'@'localhost' WITH GRANT OPTION")
-            cursor.execute(f"CREATE USER 'team06'@'%' IDENTIFIED BY '{password}';")
-            cursor.execute(f"GRANT ALL PRIVILEGES ON *.* TO 'team06'@'%' WITH GRANT OPTION")
-
-            cursor.execute("FLUSH PRIVILEGES")
 
 def create_tables(password):
     with pymysql.connect(host="localhost", port=3306, user="team06", password=password, db="SKN06_6Team") as conn:
