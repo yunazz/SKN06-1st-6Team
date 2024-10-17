@@ -1,8 +1,4 @@
-SQL_DB = '''
-CREATE DATABASE SKN06_6Team
-'''
-
-SQL_TB_CAR = '''
+SQL_CREATE_TB_CAR = '''
 CREATE TABLE car (  
     car_id int unsigned auto_increment primary key,
     car_type varchar(10) not null,
@@ -18,7 +14,7 @@ CREATE TABLE car (
 ) 
 '''
     
-SQL_TB_SUBSIDY = '''
+SQL_CREATE_TB_SUBSIDY = '''
 CREATE TABLE subsidy (  
     subsidy_id int unsigned auto_increment primary key,
     subsidy_year YEAR not null, 
@@ -28,7 +24,7 @@ CREATE TABLE subsidy (
 ) 
 '''
 
-SQL_TB_CITY = '''
+SQL_CREATE_TB_CITY = '''
 CREATE TABLE city (  
     city_id int unsigned auto_increment primary key,
     state varchar(20) not null,

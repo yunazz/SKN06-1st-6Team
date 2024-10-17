@@ -11,7 +11,7 @@ def insert_rows(password):
     with open('server/crawling/data/car_detail.json', 'r', encoding='utf-8') as f:
         car_details = json.load(f)
         
-    with pymysql.connect(host="localhost", port=3306, user="root", password=password, db="SKN06_6Team") as conn:
+    with pymysql.connect(host="localhost", port=3306, user="team06", password=password, db="SKN06_6Team") as conn:
         with conn.cursor() as cursor:
             # INSERT City
             for city in cities:
