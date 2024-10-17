@@ -108,4 +108,4 @@ $ streamlit run app.py
 ```
 
 ### 데이터베이스 구조
-<img width="600" alt="image" src="server/crawling/data/erd.png">
+<img width="1500" alt="image" src="server/crawling/data/erd.png">
