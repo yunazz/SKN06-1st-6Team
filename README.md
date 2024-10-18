@@ -16,6 +16,7 @@
 |:----------:|:----------:|:----------:|:----------:|
 | <img width="120px" src="https://cdn.discordapp.com/attachments/1293846156245340201/1295565752715313264/IMG_4935.png?ex=670f1d21&is=670dcba1&hm=fc7af38d31d9298c0adfb51af004e548818800ae2430117655f674396bda8ca8&" /> | <img width="120px" src="https://cdn.discordapp.com/attachments/1293846156245340201/1295563958656307281/IMG_8789.png?ex=6711be76&is=67106cf6&hm=cffab0e318bdccfaf359828b8cbaeb023716b04eac1d47b7878a2de8bd653497&" /> | <img width="120px" src="info/유진-1.png" /> |  <img width="120px" src="info/민준.jpeg" /> |
 | [@Yuna Park](https://github.com/yunazz) | [@Park, Mihyeon](https://github.com/ppim321) | [@RealOil](https://github.com/RealOil) | [@MinJun Jung](https://github.com/samking1234-Apple) |
+| DB | Streamlit디자인 | Streamlit | Crawling |
 
 ## 프로젝트 개요 및 소개
 최근 우리나라는 자동차 업계에 전기자동자 분야가 급부상하면서 소비자들의 구매욕구가 증가중이다. 그러나, 증가하는 수요와 다르게 보조금 지원 조회가 복잡하고 차량정보 또한 한번에 찾을 수 있는 프로그램은 없었다.
