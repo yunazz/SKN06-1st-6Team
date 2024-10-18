@@ -6,5 +6,7 @@ matplotlib-inline==0.1.7
 numpy==2.1.1
 pandas==2.2.3
 selenium==4.25.0
-streamlit==1.39.0
 PyMySQL==1.1.1
+SQLAlchemy==2.0.36
+cryptography==43.0.1
+streamlit==1.39.0
