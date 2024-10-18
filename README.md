@@ -31,7 +31,7 @@ For building and running the application you need:
 ### Installation
 ``` bash
 $ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-1st-6Team.git
-$ cd SKN01-1st-5Team
+$ cd SKN01-1st-6Team
 $ pip install -r requirements.txt
 ```
 
