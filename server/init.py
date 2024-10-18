@@ -19,7 +19,7 @@ if __name__ == '__main__':
         # crawling_car_detail()
         
         insert_rows(password)
-    except:
+    except Exception as  e:
         print('DB setting 오류')
         print(f'DB setting 오류: {e}')
     
