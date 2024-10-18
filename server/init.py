@@ -3,6 +3,7 @@ from db.dml import insert_rows
 from crawling.subsidy import crawling_subsidy
 from crawling.city import crawling_city
 from crawling.car_detail import crawling_car_detail
+import os
 
 if __name__ == '__main__':
     print('DB setting 시작')
