@@ -21,4 +21,5 @@ if __name__ == '__main__':
         insert_rows(password)
     except:
         print('DB setting 오류')
+        print(f'DB setting 오류: {e}')
     

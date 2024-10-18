@@ -10,7 +10,7 @@ def create_DB(password):
             cursor.execute('CREATE DATABASE SKN06_6Team')
 
 def create_tables(password):
-    with pymysql.connect(host="localhost", port=3306, user="team06", password=password, db="SKN06_6Team") as conn:
+    with pymysql.connect(host="localhost", port=3306, user="root", password=password, db="SKN06_6Team") as conn:
         with conn.cursor() as cursor:
             # CREATE TABLE
             cursor.execute("DROP TABLE IF EXISTS car") 
