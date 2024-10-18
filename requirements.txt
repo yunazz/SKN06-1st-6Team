@@ -1,0 +1,9 @@
+beautifulsoup4==4.4.1
+html_table_parser==0.1.0
+json5==0.9.25
+lxml==5.3.0
+matplotlib-inline==0.1.7
+numpy==2.1.1
+pandas==2.2.3
+selenium==4.25.0
+streamlit==1.39.0
