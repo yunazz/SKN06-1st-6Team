@@ -71,7 +71,7 @@ $ streamlit run app.py
 | <img width="700px" src="info/실행화면/1-1.png" />  | <img width="700px" src="info/실행화면/5.png" /> |
 
 ---
-##📱 애플리케이션 사용법 
+## 📱 애플리케이션 사용법 
 
 1. 처음 화면에서 본인의 mysql root 서버의 이름과 비밀번호를 입력한다.
 <img width="1500" src="info/실행화면/1-1.png">
