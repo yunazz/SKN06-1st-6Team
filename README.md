@@ -127,6 +127,7 @@ $ streamlit run app.py
 ### 데이터베이스 구조 (ERD)
 <img width="1500" src="server/crawling/data/ERD2.png">
 
+---
 
 ## 💁‍♀️💁‍♂️ 팀원 리뷰 💁‍♂️💁‍♀️
 #### To. 박유나 팀원
